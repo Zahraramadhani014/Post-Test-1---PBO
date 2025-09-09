@@ -50,6 +50,7 @@ Setelah itu bakal diminta untuk menginputkan "Tanggal",
 #### 6. Menu Filter Transaksi Per Jenis
 #### 7. Menu Set Batas Pengeluaran
 #### 8. Menu Keluar
+#### 9. Jika Menginputkan Menu Selain Menu 1-8
 
 
 

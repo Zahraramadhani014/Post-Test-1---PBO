@@ -75,9 +75,10 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >    Menu terakhir untuk mengakhiri program. Setelah memilih opsi ini, akan muncul pesan penutup sebagai tanda bahwa aplikasi sudah berhenti dijalankan dengan aman.
 
 #### 1. Menu Tambah Transaksi
-Ketika menginputkan angka 1 maka akan diarahkan ke menu "Tambah Transaksi" seperti gambar di bawah ini
-
 <h1 align="center"><img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" /></h1>
+
+> Ketika menginputkan angka 1 maka akan diarahkan ke menu "Tambah Transaksi" seperti gambar di bawah ini
+
 
 Setelah itu bakal diminta untuk menginputkan "Tanggal", 
 

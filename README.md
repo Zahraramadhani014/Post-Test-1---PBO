@@ -100,26 +100,40 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 > b. Jika kita menginputkan "T" maka akan di arahkan ke menu utama program ini.
 > <img width="395" height="357" alt="image" src="https://github.com/user-attachments/assets/26ff1647-8a6e-4550-a351-b943736585f9" />
 
+disini tambah jika masukkan nominal transaksi pakai huruf supaya peringatannya muncuul
+tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
+
 #### 2. Menu Lihat Semua Catatan Keuangan 
 <img width="1021" height="644" alt="image" src="https://github.com/user-attachments/assets/26c3a558-e598-4d6e-96c9-27ad2268d7fd" />
 
-> Ketika menginputkan angka 2 pada menu utama maka akan diarahkan ke menu "Lihat Semua Catatan Keuangan " seperti yang tertera pada gambar di atas
+> Ketika menginputkan angka 2 pada menu utama maka akan diarahkan ke menu "Lihat Semua Catatan Keuangan" seperti yang tertera pada gambar di atas.
+>
+> Pada menu ini, seluruh catatan keuangan yang sudah dimasukkan akan ditampilkan dalam bentuk tabel yang rapi, berisi informasi ID, Tanggal, Jenis (Pemasukan/Pengeluaran), Kategori, Metode, Jumlah, dan Keterangan.
+>
+> Selain itu, pada bagian bawah tabel akan muncul perintah "Ketik 0 untuk kembali" yang berfungsi untuk kembali ke menu utama.
 
 #### 3. Menu Ubah Catatan Keuangan
-ubah biasa
+ubah biasa (nanti disini di jelasin kalau input nominal baru pakai huruf bakalan muncul peringatan)
 kalau id bukan yang ada di tabel
 kalau input id pakai huruf
 #### 4. Menu Hapus Catatan Keuangan  
+hapus biasa
+kalau id bukan yang ada di tabel
+kalau input id pakai huruf
 #### 5. Menu Ringkasan Saldo
+ringkasan saldo biasa
+sama ringkasan saldo setelah tambah pengeluaran yang melebihi batas
 #### 6. Menu Filter Catatan 
-a. Filter per Jenis (Pemasukan/Pengeluaran)
-b. Filter per Kategori   
-c. Filter per Metode Pembayaran 
+a. Filter per Jenis (Pemasukan/Pengeluaran) sama selain pemasukan dan pengeluaran
+b. Filter per Kategori    selain yang ada dikategori
+c. Filter per Metode Pembayaran selain yang di metode
 d. Kembali
-e. Jika menginputkan selain menu 1-4
+e. Jika menginputkan selain menu 1-4 dan Menginputkan Menu Pakai Huruf Bukan Angka
 #### 7. Menu Set Batas Pengeluaran
+nanti disini nyoba set batas pengeluaran baru (jika batas belum diset maka yang muncul angka o, baru kalau mau aktifin bisa diinput jika engga mau bisa ketik 0), 
+sama kalau batas di non aktifkan. sama nanti coba lagi buka setelah tambah pengeluaran supaya muncul peringatan
 #### 8. Menu Keluar
-#### 9. Jika Menginputkan Menu Selain Menu 1-8
+#### 9. Jika Menginputkan Menu Selain Menu 1-8 dan Menginputkan Menu Pakai Huruf Bukan Angka
 
 
 

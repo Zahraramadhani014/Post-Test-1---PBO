@@ -32,14 +32,14 @@ Secara keseluruhan, Pocket Guard membantu pengguna untuk lebih mudah melacak aru
 
 ### ~ Penjelasan Alur Program  ~
 
-<img width="360" height="320" alt="image" src="https://github.com/user-attachments/assets/8cc7bc0c-f5b0-444a-aea4-d37afa12a0bb" />
+<h1 align="center"><img width="360" height="320" alt="image" src="https://github.com/user-attachments/assets/8cc7bc0c-f5b0-444a-aea4-d37afa12a0bb" /></h1>
 
 > Saat program dijalankan, akan muncul pesan pembuka “SELAMAT DATANG DI POCKET GUARD – Aplikasi Catatan Keuangan Harian Anda”. Pesan ini menandai bahwa aplikasi berfungsi sebagai alat bantu sederhana untuk mencatat pemasukan dan pengeluaran sehari-hari. Setelah itu ditampilkan Menu Utama yang berisi pilihan untuk menambah transaksi, melihat daftar transaksi, mengubah atau menghapus data, hingga menampilkan ringkasan saldo. Tersedia pula fitur filter transaksi berdasarkan jenis, penetapan batas pengeluaran bulanan agar lebih terkontrol, serta opsi keluar untuk mengakhiri program dengan aman.
 
 #### 1. Menu Tambah Transaksi
 Ketika menginputkan angka 1 maka akan diarahkan ke menu "Tambah Transaksi" seperti gambar di bawah ini
 
-<img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" />
+<h1 align="center"><img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" /></h1>
 
 Setelah itu bakal diminta untuk menginputkan "Tanggal", 
 

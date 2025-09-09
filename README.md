@@ -113,19 +113,99 @@ tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
 > Selain itu, pada bagian bawah tabel akan muncul perintah "Ketik 0 untuk kembali" yang berfungsi untuk kembali ke menu utama.
 
 #### 3. Menu Ubah Catatan Keuangan
-ubah biasa (nanti disini di jelasin kalau input nominal baru pakai huruf bakalan muncul peringatan)
-kalau id bukan yang ada di tabel
-kalau input id pakai huruf
+<img width="687" height="412" alt="image" src="https://github.com/user-attachments/assets/47864569-7c04-47ba-8861-211eaf04c09d" />
+
+<img width="698" height="227" alt="image" src="https://github.com/user-attachments/assets/980c7cd5-4d8c-4604-bc00-6adddb715b76" />
+
+<img width="1016" height="331" alt="image" src="https://github.com/user-attachments/assets/33144f74-7c63-402f-8659-55d029c3a935" />
+
+
+- ID sebelum diubah catatan keuangan nya
+  <img width="981" height="25" alt="image" src="https://github.com/user-attachments/assets/57381df9-080b-4e93-a6d5-9150a7dc04fa" />
+  
+- ID sesudah diubah catatan keuangan nya
+<img width="982" height="28" alt="image" src="https://github.com/user-attachments/assets/1ee1b467-dc9e-4597-8483-5d6e32354b6e" />
+
+apakah ingin mengubah catatan keuangan 
+<img width="1038" height="393" alt="image" src="https://github.com/user-attachments/assets/417b71c7-0dc9-4bcb-a0b2-9bd8fe65254d" />
+
+- jika y
+  <img width="1052" height="646" alt="image" src="https://github.com/user-attachments/assets/76a78050-accd-452b-98dd-693fb87ab2d7" />
+  
+- jika t
+  <img width="425" height="349" alt="image" src="https://github.com/user-attachments/assets/d2bae0d9-3336-49fa-9367-6e99c05dbc35" />
+
+id bukan tabel gambar di bawah
+<img width="1014" height="457" alt="image" src="https://github.com/user-attachments/assets/42918cd9-9f0d-41c7-ad54-1fccfc99d5bd" />
+
+id input pakai huruf gambar dibawah
+<img width="679" height="116" alt="image" src="https://github.com/user-attachments/assets/6cca9d20-4658-4313-ac23-49bd20efe89c" />
+
+apabila menginputkan nominal transaksi gak pakai angka gambar dibawah
+<img width="1007" height="614" alt="image" src="https://github.com/user-attachments/assets/8424c0ad-e38e-49bd-986d-045806a2df1d" />
+
+
 #### 4. Menu Hapus Catatan Keuangan  
-hapus biasa
-kalau id bukan yang ada di tabel
-kalau input id pakai huruf
+<img width="683" height="407" alt="image" src="https://github.com/user-attachments/assets/e214e261-4298-450c-ac45-dc0d2a00eef4" />
+
+<img width="678" height="130" alt="image" src="https://github.com/user-attachments/assets/2c5a4b07-4529-4ea8-ab58-2cf4c803955b" />
+
+- tabel sebelum dihapus
+  <img width="987" height="308" alt="image" src="https://github.com/user-attachments/assets/6141a705-e19c-4652-b2f7-ef0abdd308b0" />
+
+- tabel setelah di hapus
+  <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/e3e67acc-690e-4c74-9fa3-3895c3bdfa05" />
+
+apakah ingin menghapus lagi
+<img width="1015" height="363" alt="image" src="https://github.com/user-attachments/assets/7c553384-a86c-4409-960b-e889e8edeb24" />
+
+- jika y
+  <img width="1016" height="478" alt="image" src="https://github.com/user-attachments/assets/eb74fe14-96c9-4690-929c-6c8634e5d151" />
+
+- jika t
+  <img width="424" height="354" alt="image" src="https://github.com/user-attachments/assets/5e030a33-42e6-4f37-88bf-6b495e8ae794" />
+
+id bukan ditabel
+  <img width="1009" height="486" alt="image" src="https://github.com/user-attachments/assets/0cc1dc8c-8ccf-4f24-9694-93f4b13c1493" />
+
+id input pakai huruf gambar dibawah
+<img width="1016" height="422" alt="image" src="https://github.com/user-attachments/assets/ff4dca00-922e-4860-8fa8-fb37db76d66f" />
+
+
 #### 5. Menu Ringkasan Saldo
-ringkasan saldo biasa
+
+<img width="711" height="477" alt="image" src="https://github.com/user-attachments/assets/d9f7c07a-2d2c-485f-9c4d-7debc01427f1" />
+
 sama ringkasan saldo setelah tambah pengeluaran yang melebihi batas
 #### 6. Menu Filter Catatan 
 a. Filter per Jenis (Pemasukan/Pengeluaran) sama selain pemasukan dan pengeluaran
+
+<img width="631" height="494" alt="image" src="https://github.com/user-attachments/assets/4c99876a-6485-4e4d-8318-413bd2391124" />
+
+
+<img width="700" height="272" alt="image" src="https://github.com/user-attachments/assets/afe66ae2-ae33-498e-9afb-bcb7699d11e0" />
+
+- pemasukan
+  <img width="1013" height="255" alt="image" src="https://github.com/user-attachments/assets/24f57eb7-3956-43ff-90e5-759c3ebb0ca7" />
+
+- pengeluaran
+  <img width="1024" height="308" alt="image" src="https://github.com/user-attachments/assets/4175bc72-9c95-4eec-944e-321486b2d114" />
+
+- selain pemasukan dan pengeluaran
+  <img width="674" height="309" alt="image" src="https://github.com/user-attachments/assets/12ec521f-11b6-4f51-93a1-949ece7622d6" />
+
+
 b. Filter per Kategori    selain yang ada dikategori
+
+gaji, 
+makan, 
+transportasi, 
+hiburan, 
+belanja,
+tabungan, 
+tagihan
+selain yang ada di kategori
+
 c. Filter per Metode Pembayaran selain yang di metode
 d. Kembali
 e. Jika menginputkan selain menu 1-4 dan Menginputkan Menu Pakai Huruf Bukan Angka

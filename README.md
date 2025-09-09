@@ -101,7 +101,11 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 > <img width="395" height="357" alt="image" src="https://github.com/user-attachments/assets/26ff1647-8a6e-4550-a351-b943736585f9" />
 
 disini tambah jika masukkan nominal transaksi pakai huruf supaya peringatannya muncuul
+<img width="936" height="202" alt="image" src="https://github.com/user-attachments/assets/0aa64c3f-7944-46ad-b028-b2f69707e823" />
+
 tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
+<img width="1061" height="586" alt="image" src="https://github.com/user-attachments/assets/26b2b15c-c5ed-4aae-a019-1fb9122c2e78" />
+
 
 #### 2. Menu Lihat Semua Catatan Keuangan 
 <img width="1021" height="644" alt="image" src="https://github.com/user-attachments/assets/26c3a558-e598-4d6e-96c9-27ad2268d7fd" />
@@ -177,6 +181,8 @@ id input pakai huruf gambar dibawah
 <img width="711" height="477" alt="image" src="https://github.com/user-attachments/assets/d9f7c07a-2d2c-485f-9c4d-7debc01427f1" />
 
 sama ringkasan saldo setelah tambah pengeluaran yang melebihi batas
+<img width="701" height="225" alt="image" src="https://github.com/user-attachments/assets/1080d1c1-cb4b-46b8-a54b-c792eded2da2" />
+
 #### 6. Menu Filter Catatan 
 a. Filter per Jenis (Pemasukan/Pengeluaran) sama selain pemasukan dan pengeluaran
 
@@ -196,24 +202,77 @@ a. Filter per Jenis (Pemasukan/Pengeluaran) sama selain pemasukan dan pengeluara
 
 
 b. Filter per Kategori    selain yang ada dikategori
+<img width="725" height="278" alt="image" src="https://github.com/user-attachments/assets/13e27963-6b0e-42ab-a7f2-5e417a66d4fc" />
 
 gaji, 
+<img width="1019" height="210" alt="image" src="https://github.com/user-attachments/assets/4dc47c9e-072a-41cd-92a9-4240bb77cce5" />
+
 makan, 
+<img width="1008" height="214" alt="image" src="https://github.com/user-attachments/assets/7dae145d-325a-4fab-a905-65ef1f65300b" />
+
 transportasi, 
+<img width="1003" height="215" alt="image" src="https://github.com/user-attachments/assets/e1533edb-284f-426f-a00b-fb69bce4c928" />
+
 hiburan, 
+<img width="1009" height="214" alt="image" src="https://github.com/user-attachments/assets/03ce37e8-0027-421b-9be9-3e5c7dbab591" />
+
 belanja,
-tabungan, 
+<img width="1005" height="216" alt="image" src="https://github.com/user-attachments/assets/4fa0a197-ffb1-4d67-a579-6d45e3353329" />
+
+tabungan,
+<img width="1029" height="238" alt="image" src="https://github.com/user-attachments/assets/c7e691ba-19bb-48f4-b4f5-e80d056e9a96" />
+
 tagihan
+<img width="1006" height="238" alt="image" src="https://github.com/user-attachments/assets/69386296-20ab-436e-bf40-626b39e72146" />
+
 selain yang ada di kategori
+<img width="798" height="311" alt="image" src="https://github.com/user-attachments/assets/528c472b-768e-48a6-99ba-091ceb7d6785" />
 
 c. Filter per Metode Pembayaran selain yang di metode
+<img width="707" height="271" alt="image" src="https://github.com/user-attachments/assets/c52c262c-04aa-4c06-9707-834fb75b28fe" />
+
+cash
+<img width="1025" height="233" alt="image" src="https://github.com/user-attachments/assets/3f97f153-3452-4f0a-bb29-b3541e66cb98" />
+
+transfer
+<img width="1037" height="295" alt="image" src="https://github.com/user-attachments/assets/444926c9-c446-4f7b-9cb1-efbca08994ae" />
+
+e-wallet
+<img width="1015" height="242" alt="image" src="https://github.com/user-attachments/assets/4ab75684-8f54-4050-be4d-5fc08afee3d3" />
+
+selain yang ada di metode pembayaran
+<img width="718" height="319" alt="image" src="https://github.com/user-attachments/assets/ceeb1a3f-962f-484e-96ce-451d855d40fc" />
+
 d. Kembali
+<img width="725" height="508" alt="image" src="https://github.com/user-attachments/assets/4e6176f7-e930-4960-8c6d-cab1ded221ef" />
+
 e. Jika menginputkan selain menu 1-4 dan Menginputkan Menu Pakai Huruf Bukan Angka
+<img width="639" height="403" alt="image" src="https://github.com/user-attachments/assets/e54e604e-de86-410a-896f-186e00daf6db" />
+
+<img width="681" height="205" alt="image" src="https://github.com/user-attachments/assets/01d34cc6-2fb0-4fa5-93c7-aab0ee479f87" />
+
+
 #### 7. Menu Set Batas Pengeluaran
 nanti disini nyoba set batas pengeluaran baru (jika batas belum diset maka yang muncul angka o, baru kalau mau aktifin bisa diinput jika engga mau bisa ketik 0), 
 sama kalau batas di non aktifkan. sama nanti coba lagi buka setelah tambah pengeluaran supaya muncul peringatan
+
+<img width="686" height="424" alt="image" src="https://github.com/user-attachments/assets/69a90211-c5bc-4e2a-9d71-30ebe6a20652" />
+
+<img width="715" height="195" alt="image" src="https://github.com/user-attachments/assets/529ef75f-34ed-42e2-8f88-1a625e7e4991" />
+
+buka pengeluaran setelah ditambah produk
+<img width="733" height="218" alt="image" src="https://github.com/user-attachments/assets/5cc2fd79-04b4-4ba8-bd90-8cb28cff1bc8" />
+
+nonaktif batas
+<img width="706" height="162" alt="image" src="https://github.com/user-attachments/assets/f7adb9fd-b96a-4b6f-8d75-068e41b4ae9e" />
+
 #### 8. Menu Keluar
+<img width="460" height="425" alt="image" src="https://github.com/user-attachments/assets/6b295d2b-299f-4c47-b061-15b7400bf3ff" />
+
 #### 9. Jika Menginputkan Menu Selain Menu 1-8 dan Menginputkan Menu Pakai Huruf Bukan Angka
+<img width="428" height="692" alt="image" src="https://github.com/user-attachments/assets/c950f97e-246e-401c-8553-d2b648cf977c" />
+
+<img width="495" height="330" alt="image" src="https://github.com/user-attachments/assets/e680a0aa-c1e6-4a56-973e-89898580767a" />
 
 
 

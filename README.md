@@ -117,9 +117,11 @@ tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
 > Selain itu, pada bagian bawah tabel akan muncul perintah "Ketik 0 untuk kembali" yang berfungsi untuk kembali ke menu utama.
 
 #### 3. Menu Ubah Catatan Keuangan
-<img width="687" height="412" alt="image" src="https://github.com/user-attachments/assets/47864569-7c04-47ba-8861-211eaf04c09d" />
+<img width="1013" height="721" alt="image" src="https://github.com/user-attachments/assets/515be041-fe38-4733-9237-df4f79b73d55" />
 
-<img width="698" height="227" alt="image" src="https://github.com/user-attachments/assets/980c7cd5-4d8c-4604-bc00-6adddb715b76" />
+
+<img width="1036" height="602" alt="image" src="https://github.com/user-attachments/assets/23f136c0-7b04-4160-be1e-0c0c8d68a6a6" />
+
 
 <img width="1016" height="331" alt="image" src="https://github.com/user-attachments/assets/33144f74-7c63-402f-8659-55d029c3a935" />
 
@@ -131,22 +133,29 @@ tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
 <img width="982" height="28" alt="image" src="https://github.com/user-attachments/assets/1ee1b467-dc9e-4597-8483-5d6e32354b6e" />
 
 apakah ingin mengubah catatan keuangan 
-<img width="1038" height="393" alt="image" src="https://github.com/user-attachments/assets/417b71c7-0dc9-4bcb-a0b2-9bd8fe65254d" />
+<img width="1028" height="395" alt="image" src="https://github.com/user-attachments/assets/9b6c060f-669d-451d-b795-be444910a6db" />
+
 
 - jika y
-  <img width="1052" height="646" alt="image" src="https://github.com/user-attachments/assets/76a78050-accd-452b-98dd-693fb87ab2d7" />
+  <img width="1038" height="673" alt="image" src="https://github.com/user-attachments/assets/688421af-a675-4f78-8fb7-3b94081e9652" />
+  <img width="1009" height="339" alt="image" src="https://github.com/user-attachments/assets/e6e7773f-d2e4-4fcb-9dba-dca93c0be3c8" />
+
+
   
 - jika t
   <img width="425" height="349" alt="image" src="https://github.com/user-attachments/assets/d2bae0d9-3336-49fa-9367-6e99c05dbc35" />
 
 id bukan tabel gambar di bawah
-<img width="1014" height="457" alt="image" src="https://github.com/user-attachments/assets/42918cd9-9f0d-41c7-ad54-1fccfc99d5bd" />
+<img width="1199" height="815" alt="image" src="https://github.com/user-attachments/assets/7b99194b-783e-4dd7-a122-0a5cb58b09fe" />
+
 
 id input pakai huruf gambar dibawah
-<img width="679" height="116" alt="image" src="https://github.com/user-attachments/assets/6cca9d20-4658-4313-ac23-49bd20efe89c" />
+<img width="994" height="474" alt="image" src="https://github.com/user-attachments/assets/c6004323-fdf3-4281-bf23-ab5368a095b0" />
+
 
 apabila menginputkan nominal transaksi gak pakai angka gambar dibawah
-<img width="1007" height="614" alt="image" src="https://github.com/user-attachments/assets/8424c0ad-e38e-49bd-986d-045806a2df1d" />
+<img width="497" height="211" alt="image" src="https://github.com/user-attachments/assets/115dfe19-20a1-409c-85be-36bf89500fcc" />
+<img width="1266" height="462" alt="image" src="https://github.com/user-attachments/assets/cffebac3-341f-4648-94b3-ab0c20ce469b" />
 
 
 #### 4. Menu Hapus Catatan Keuangan  

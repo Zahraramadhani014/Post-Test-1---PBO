@@ -80,7 +80,7 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 
 #### 1. Menu Tambah Catatan Keuangan
 
-<img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" />
+<img width="715" height="400" alt="image" src="https://github.com/user-attachments/assets/073c2a35-39aa-47a4-a5d5-18263c22df3a" />
 
 > Ketika menginputkan angka 1 pada menu utama maka akan diarahkan ke menu "Tambah Catatan Keuangan" seperti yang tertera pada gambar di atas
 

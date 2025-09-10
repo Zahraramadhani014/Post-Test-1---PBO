@@ -80,15 +80,15 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 
 #### 1. Menu Tambah Catatan Keuangan
 
-<h1 align="center"><img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" /></h1>
+<img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" />
 
 > Ketika menginputkan angka 1 pada menu utama maka akan diarahkan ke menu "Tambah Catatan Keuangan" seperti yang tertera pada gambar di atas
 
-<h1 align="center"><img width="905" height="217" alt="image" src="https://github.com/user-attachments/assets/cb715ebe-5e17-4511-ae2b-66bccd306636" /></h1>
+<img width="905" height="217" alt="image" src="https://github.com/user-attachments/assets/cb715ebe-5e17-4511-ae2b-66bccd306636" />>
 
 > Setelah itu bakal diminta untuk menginputkan "Tanggal", "Keterangan", "Jenis Transaksi", "Kategori Transaksi", "Metode Pembayaran:, serta "Nominal Transaksi". Ketika berhasil menambahkan data baru akan muncul pesan "Data Berhasil Ditambahkan"
 
-<h1 align="center"><img width="1025" height="408" alt="image" src="https://github.com/user-attachments/assets/df4b47e0-b4bd-4266-8b85-14f4d19fd624" /></h1>
+<img width="1025" height="408" alt="image" src="https://github.com/user-attachments/assets/df4b47e0-b4bd-4266-8b85-14f4d19fd624" />
 
 > Setelah data baru berhasil ditambahkan, program akan langsung menampilkan ulang seluruh daftar catatan keuangan dalam bentuk tabel. Tabel ini memuat informasi lengkap seperti ID, Tanggal, Jenis (pemasukan/pengeluaran), Kategori, Metode Pembayaran, Jumlah, serta Keterangan.
 >

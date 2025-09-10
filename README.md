@@ -192,133 +192,236 @@ Setelah pengguna selesai melakukan proses Ubah Catatan Keuangan, sistem akan men
   Pengguna kemudian diminta untuk memasukkan ulang nilai nominal dengan format angka yang benar. Setelah input diperbaiki, data transaksi akan berhasil diperbarui dan ditampilkan kembali pada tabel catatan keuangan.
 
 #### 4. Menu Hapus Catatan Keuangan  
-<img width="683" height="407" alt="image" src="https://github.com/user-attachments/assets/e214e261-4298-450c-ac45-dc0d2a00eef4" />
+<img width="1015" height="731" alt="image" src="https://github.com/user-attachments/assets/ad4d8bb0-3ad6-4335-b70c-e0edbf303a40" />
 
-<img width="678" height="130" alt="image" src="https://github.com/user-attachments/assets/2c5a4b07-4529-4ea8-ab58-2cf4c803955b" />
+<img width="1003" height="445" alt="image" src="https://github.com/user-attachments/assets/fe4b41d1-0b6c-4445-a10e-340ccdebd398" />
 
->  Ketika pengguna memilih angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada menu ini, pengguna diminta untuk memasukkan ID catatan yang ingin dihapus.
+>  Ketika pengguna memilih angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada tahap ini, tabel catatan keuangan akan ditampilkan terlebih dahulu agar pengguna tidak bingung data mana yang ingin dihapus. Setelah tabel ditampilkan, pengguna kemudian diminta untuk memasukkan ID catatan yang ingin dihapus.
 >
-> Jika ID yang dimasukkan sesuai dengan data yang ada, maka catatan tersebut akan langsung dihapus dari daftar, dan sistem menampilkan pesan "Data berhasil dihapus"
+> Jika ID yang dimasukkan sesuai dengan data yang ada, maka sistem akan menampilkan pertanyaan konfirmasi "Apakah Anda yakin ingin menghapus data dengan ID ... (Y/T)?".
+> a. Jika memilih "Y"
+> 
+>  <img width="531" height="108" alt="image" src="https://github.com/user-attachments/assets/765e9670-676f-4baa-9cb1-a1aec2497058" />
+>
+>   Maka catatan akan dihapus dari daftar, dan sistem menampilkan pesan "Data berhasil dihapus".
+>
+>   - Tampilan tabel sebelum dihapus datanya
+>     <img width="987" height="308" alt="image" src="https://github.com/user-attachments/assets/6141a705-e19c-4652-b2f7-ef0abdd308b0" />
+>    
+>   - Tampilan tabel setelah di hapus datanya
+>     <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/e3e67acc-690e-4c74-9fa3-3895c3bdfa05" />
+> b. Jika memilih "T"
+> 
+>   <img width="550" height="105" alt="image" src="https://github.com/user-attachments/assets/cecccff0-205f-4406-bb0f-483ed10689ac" />
+>
+>   Maka proses penghapusan dibatalkan, dan sistem menampilkan pesan "Penghapusan dibatalkan".
 
-- Tampilan tabel sebelum dihapus datanya 
-  <img width="987" height="308" alt="image" src="https://github.com/user-attachments/assets/6141a705-e19c-4652-b2f7-ef0abdd308b0" />
+Setelah pengguna berhasil menghapus data, sistem akan menampilkan pertanyaan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" seperti terlihat pada gambar di bawah.
 
-- Tampilan tabel setelah di hapus datanya
-  <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/e3e67acc-690e-4c74-9fa3-3895c3bdfa05" />
+  <img width="1006" height="448" alt="image" src="https://github.com/user-attachments/assets/9f3618d5-4345-4936-892d-d81015957710" />
 
-apakah ingin menghapus lagi
-<img width="1015" height="363" alt="image" src="https://github.com/user-attachments/assets/7c553384-a86c-4409-960b-e889e8edeb24" />
 
-- jika y
-  <img width="1016" height="478" alt="image" src="https://github.com/user-attachments/assets/eb74fe14-96c9-4690-929c-6c8634e5d151" />
+> a. Jika Memilih "Y"
+> 
+>   <img width="1009" height="551" alt="image" src="https://github.com/user-attachments/assets/66af7810-6277-41dc-98e3-cb2ad9d5e119" />
+>
+>  Program akan kembali menampilkan tabel catatan keuangan terbaru, kemudian meminta pengguna untuk memasukkan ID catatan lain yang ingin dihapus. Proses ini dapat dilakukan berulang kali sampai pengguna memilih untuk berhenti. Dengan cara ini, pengguna bisa langsung menghapus lebih dari satu catatan dalam satu kali sesi tanpa harus kembali ke menu utama terlebih dahulu.
+>
+> b. Jika Memilih "T"
+> 
+>   <img width="438" height="355" alt="image" src="https://github.com/user-attachments/assets/3699e731-fa51-4779-92e6-a21f8b180d9b" />
+>
+>  Program akan langsung kembali ke Menu Utama tanpa menghapus catatan tambahan.
 
-- jika t
-  <img width="424" height="354" alt="image" src="https://github.com/user-attachments/assets/5e030a33-42e6-4f37-88bf-6b495e8ae794" />
+<img width="1024" height="485" alt="image" src="https://github.com/user-attachments/assets/72867780-f83f-4f8e-9a36-7014f33cd9dd" />
 
-id bukan ditabel
-  <img width="1009" height="486" alt="image" src="https://github.com/user-attachments/assets/0cc1dc8c-8ccf-4f24-9694-93f4b13c1493" />
+> Jika ID yang dimasukkan tidak sesuai atau tidak ada dalam daftar catatan keuangan, maka sistem akan menampilkan pesan "ID tidak ditemukan".
+>
+> Hal ini bertujuan agar pengguna tidak salah menghapus catatan yang tidak ada pada tabel. Setelah itu, sistem tetap memberikan pilihan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" sehingga pengguna bisa mencoba kembali dengan memasukkan ID yang benar, atau keluar dari proses penghapusan dengan memilih "T".
 
-id input pakai huruf gambar dibawah
-<img width="1016" height="422" alt="image" src="https://github.com/user-attachments/assets/ff4dca00-922e-4860-8fa8-fb37db76d66f" />
+<img width="1038" height="422" alt="image" src="https://github.com/user-attachments/assets/5f670a08-9cab-4713-8535-fb659566e937" />
 
+> Jika pengguna memasukkan ID dengan huruf (contoh: mengetik "satu" alih-alih angka 1), maka sistem tidak akan menerima input tersebut dan akan menampilkan pesan "Harus angka! Silakan input ulang:".
+>
+> Pesan ini berfungsi sebagai validasi agar pengguna hanya bisa memasukkan ID dalam bentuk angka sesuai dengan tabel catatan yang tersedia.
 
 #### 5. Menu Ringkasan Saldo
 
 <img width="711" height="477" alt="image" src="https://github.com/user-attachments/assets/d9f7c07a-2d2c-485f-9c4d-7debc01427f1" />
 
-sama ringkasan saldo setelah tambah pengeluaran yang melebihi batas
+> Ketika memilih angka 5 pada menu utama, sistem akan menampilkan menu Ringkasan Saldo. Pada menu ini ditampilkan rekapitulasi keuangan yang berisi total pemasukan, total pengeluaran, serta saldo akhir yang merupakan selisih dari keduanya. Informasi ini membantu menampilkan kondisi keuangan terkini secara lebih jelas dan ringkas. Setelah ringkasan saldo ditampilkan, sistem akan meminta untuk mengetik angka 0 agar dapat kembali ke menu utama.
+
 <img width="701" height="225" alt="image" src="https://github.com/user-attachments/assets/1080d1c1-cb4b-46b8-a54b-c792eded2da2" />
 
+> Ketika menambahkan catatan pengeluaran dengan jumlah yang melebihi pemasukan, lalu membuka menu Ringkasan Saldo, sistem akan tetap menampilkan total pemasukan, total pengeluaran, dan saldo akhir. Karena nilai pengeluaran lebih besar dibandingkan pemasukan, saldo ditampilkan dalam kondisi negatif. Selain itu, sistem juga memberikan catatan berupa peringatan: “Pengeluaran lebih besar dari pemasukan. Harap bijak mengatur keuangan.” Setelah itu, sistem meminta untuk mengetik angka 0 agar dapat kembali ke menu utama.
+
 #### 6. Menu Filter Catatan 
-a. Filter per Jenis (Pemasukan/Pengeluaran) sama selain pemasukan dan pengeluaran
 
 <img width="631" height="494" alt="image" src="https://github.com/user-attachments/assets/4c99876a-6485-4e4d-8318-413bd2391124" />
 
+> Ketika memilih angka 6 pada menu utama, sistem akan menampilkan Menu Filter Catatan. Pada menu ini tersedia beberapa pilihan filter, yaitu filter per jenis transaksi (pemasukan atau pengeluaran), filter per kategori, dan filter per metode pembayaran. Selain itu, juga tersedia opsi untuk kembali ke menu sebelumnya. Melalui menu ini, catatan keuangan dapat disaring sesuai kriteria tertentu agar informasi yang ditampilkan lebih fokus dan mudah dipahami.
 
-<img width="700" height="272" alt="image" src="https://github.com/user-attachments/assets/afe66ae2-ae33-498e-9afb-bcb7699d11e0" />
+a. Filter per Jenis (Pemasukan/Pengeluaran) 
 
-- pemasukan
+  <img width="700" height="272" alt="image" src="https://github.com/user-attachments/assets/afe66ae2-ae33-498e-9afb-bcb7699d11e0" />
+
+  > Setelah memilih opsi 1. Filter per Jenis (Pemasukan/Pengeluaran) pada menu filter catatan, sistem akan menampilkan tampilan baru bertuliskan Filter berdasarkan Jenis. Pada tahap ini, sistem meminta input jenis transaksi yang ingin difilter, apakah termasuk pemasukan atau pengeluaran. Input tersebut akan digunakan untuk menampilkan daftar catatan keuangan sesuai jenis yang dipilih sehingga data lebih terfokus.
+
+- Pemasukan
+  
   <img width="1013" height="255" alt="image" src="https://github.com/user-attachments/assets/24f57eb7-3956-43ff-90e5-759c3ebb0ca7" />
+  
+  > Setelah memilih jenis transaksi Pemasukan, sistem akan menampilkan daftar catatan keuangan yang hanya berisi transaksi dengan jenis tersebut. Tabel yang ditampilkan memuat detail berupa ID, tanggal, jenis, kategori, metode, jumlah, serta keterangan dari setiap transaksi pemasukan. Dari hasil filter terlihat bahwa hanya transaksi dengan kategori gaji maupun tabungan yang masuk dalam daftar. Setelah selesai melihat data, dapat diketik angka 0 untuk kembali ke menu sebelumnya.
 
-- pengeluaran
+- Pengeluaran
+  
   <img width="1024" height="308" alt="image" src="https://github.com/user-attachments/assets/4175bc72-9c95-4eec-944e-321486b2d114" />
 
-- selain pemasukan dan pengeluaran
+  > Setelah memilih jenis transaksi Pengeluaran, sistem menampilkan daftar catatan keuangan yang hanya berisi transaksi dengan jenis pengeluaran. Tabel yang ditampilkan berisi detail ID, tanggal, jenis, kategori, metode, jumlah, serta keterangan dari setiap transaksi. Dari hasil filter terlihat bahwa data pengeluaran meliputi kebutuhan sehari-hari seperti makan, transportasi, hiburan, belanja, serta tagihan. Dengan tampilan ini, semua transaksi pengeluaran dapat diamati secara lebih jelas tanpa bercampur dengan pemasukan. Setelah selesai, cukup mengetik angka 0 untuk kembali ke menu sebelumnya.
+
+- Selain pilihan pemasukan dan pengeluaran
+  
   <img width="674" height="309" alt="image" src="https://github.com/user-attachments/assets/12ec521f-11b6-4f51-93a1-949ece7622d6" />
 
+  > Jika pada filter jenis transaksi dimasukkan selain pilihan Pemasukan atau Pengeluaran, misalnya kata pendapatan, maka sistem tidak akan menemukan data yang sesuai. Pesan yang muncul adalah “Tidak ada data dengan jenis tersebut”. Setelah itu, sistem secara otomatis menampilkan kembali menu filter catatan agar dapat memilih opsi yang benar, seperti filter berdasarkan jenis, kategori, atau metode pembayaran.
 
-b. Filter per Kategori    selain yang ada dikategori
-<img width="725" height="278" alt="image" src="https://github.com/user-attachments/assets/13e27963-6b0e-42ab-a7f2-5e417a66d4fc" />
+b. Filter per Kategori  
 
-gaji, 
-<img width="1019" height="210" alt="image" src="https://github.com/user-attachments/assets/4dc47c9e-072a-41cd-92a9-4240bb77cce5" />
+  <img width="725" height="278" alt="image" src="https://github.com/user-attachments/assets/13e27963-6b0e-42ab-a7f2-5e417a66d4fc" />
 
-makan, 
-<img width="1008" height="214" alt="image" src="https://github.com/user-attachments/assets/7dae145d-325a-4fab-a905-65ef1f65300b" />
+  > Ketika memilih opsi Filter per Kategori pada menu filter catatan, sistem akan menampilkan pilihan untuk memasukkan kategori transaksi. Kategori yang tersedia antara lain gaji, makan, transportasi, hiburan, belanja, tabungan, dan tagihan. Setelah kategori dimasukkan, sistem akan menampilkan catatan transaksi yang sesuai dengan kategori tersebut dalam bentuk tabel, sehingga lebih mudah untuk melihat pengeluaran atau pemasukan berdasarkan kategori tertentu.
 
-transportasi, 
-<img width="1003" height="215" alt="image" src="https://github.com/user-attachments/assets/e1533edb-284f-426f-a00b-fb69bce4c928" />
+- Kategori gaji
+  
+  <img width="1019" height="210" alt="image" src="https://github.com/user-attachments/assets/4dc47c9e-072a-41cd-92a9-4240bb77cce5" />
 
-hiburan, 
-<img width="1009" height="214" alt="image" src="https://github.com/user-attachments/assets/03ce37e8-0027-421b-9be9-3e5c7dbab591" />
+  > Ketika memilih kategori gaji, sistem akan menampilkan daftar transaksi yang termasuk dalam kategori tersebut. Pada tampilan terlihat catatan pemasukan pada tanggal 1 September 2025 dengan metode transfer sebesar Rp 3.000.000 yang tercatat sebagai Gaji Bulan September. Setelah data ditampilkan, tersedia perintah untuk mengetik angka 0 agar bisa kembali ke menu sebelumnya.
 
-belanja,
-<img width="1005" height="216" alt="image" src="https://github.com/user-attachments/assets/4fa0a197-ffb1-4d67-a579-6d45e3353329" />
+- Kategori makan
+  
+  <img width="1008" height="214" alt="image" src="https://github.com/user-attachments/assets/7dae145d-325a-4fab-a905-65ef1f65300b" />
 
-tabungan,
-<img width="1029" height="238" alt="image" src="https://github.com/user-attachments/assets/c7e691ba-19bb-48f4-b4f5-e80d056e9a96" />
+  > Ketika memilih kategori makan, sistem akan menampilkan data transaksi yang sesuai dengan kategori tersebut. Pada hasil filter terlihat satu catatan pengeluaran pada tanggal 2 September 2025 dengan metode pembayaran cash sebesar Rp 25.000, yang tercatat sebagai Beli Makan Siang. Setelah data ditampilkan, sistem memberikan opsi untuk mengetik angka 0 agar dapat kembali ke menu sebelumnya.
+  
+- Kategori transportasi
+  
+  <img width="1003" height="215" alt="image" src="https://github.com/user-attachments/assets/e1533edb-284f-426f-a00b-fb69bce4c928" />
+  
+  > Ketika memilih kategori transportasi, sistem akan menampilkan data transaksi yang sesuai dengan kategori tersebut. Pada hasil filter terlihat satu catatan pengeluaran pada tanggal 3 September 2025 dengan metode pembayaran cash sebesar Rp 10.000, yang tercatat sebagai Ongkos Transportasi. Setelah data ditampilkan, sistem akan meminta untuk mengetik angka 0 agar dapat kembali ke menu sebelumnya.
 
-tagihan
-<img width="1006" height="238" alt="image" src="https://github.com/user-attachments/assets/69386296-20ab-436e-bf40-626b39e72146" />
+- Kategori hiburan
+  
+  <img width="1009" height="214" alt="image" src="https://github.com/user-attachments/assets/03ce37e8-0027-421b-9be9-3e5c7dbab591" />
 
-selain yang ada di kategori
-<img width="798" height="311" alt="image" src="https://github.com/user-attachments/assets/528c472b-768e-48a6-99ba-091ceb7d6785" />
+  > Ketika memilih kategori hiburan, sistem akan menampilkan transaksi yang tercatat dalam kategori tersebut. Pada hasil filter terlihat satu catatan pengeluaran pada tanggal 4 September 2025 dengan metode pembayaran E-Wallet sebesar Rp 50.000, yang digunakan untuk kegiatan nonton bioskop. Setelah informasi ditampilkan, sistem memberikan opsi untuk mengetik angka 0 agar dapat kembali ke menu sebelumnya.
 
-c. Filter per Metode Pembayaran selain yang di metode
-<img width="707" height="271" alt="image" src="https://github.com/user-attachments/assets/c52c262c-04aa-4c06-9707-834fb75b28fe" />
+- Kategori belanja
+  
+  <img width="1005" height="216" alt="image" src="https://github.com/user-attachments/assets/4fa0a197-ffb1-4d67-a579-6d45e3353329" />
 
-cash
-<img width="1025" height="233" alt="image" src="https://github.com/user-attachments/assets/3f97f153-3452-4f0a-bb29-b3541e66cb98" />
+  > Ketika memilih kategori belanja, sistem akan menampilkan catatan transaksi yang termasuk dalam kategori tersebut. Pada hasil filter terlihat satu transaksi pengeluaran yang terjadi pada tanggal 5 September 2025 dengan metode pembayaran transfer sebesar Rp 200.000, yang digunakan untuk membeli pakaian. Setelah data ini ditampilkan, sistem memberikan opsi untuk mengetik angka 0 agar dapat kembali ke menu sebelumnya.
 
-transfer
-<img width="1037" height="295" alt="image" src="https://github.com/user-attachments/assets/444926c9-c446-4f7b-9cb1-efbca08994ae" />
+- Kategori tabungan
+  
+  <img width="1029" height="238" alt="image" src="https://github.com/user-attachments/assets/c7e691ba-19bb-48f4-b4f5-e80d056e9a96" />
 
-e-wallet
-<img width="1015" height="242" alt="image" src="https://github.com/user-attachments/assets/4ab75684-8f54-4050-be4d-5fc08afee3d3" />
+  > Ketika memilih kategori tabungan, sistem akan menampilkan daftar transaksi yang berkaitan dengan tabungan. Dari hasil filter terlihat ada dua transaksi pemasukan. Transaksi pertama terjadi pada tanggal 6 September 2025 sebesar Rp 500.000 dengan metode transfer, yang dicatat sebagai kegiatan menabung rutin. Transaksi kedua terjadi pada tanggal 9 September 2025 sebesar Rp 300.000 dengan metode transfer, yang dicatat sebagai isi saldo tabungan. Setelah data ditampilkan, sistem menunggu input angka 0 untuk kembali ke menu sebelumnya.
 
-selain yang ada di metode pembayaran
-<img width="718" height="319" alt="image" src="https://github.com/user-attachments/assets/ceeb1a3f-962f-484e-96ce-451d855d40fc" />
+- Kategori tagihan
+  
+  <img width="1006" height="238" alt="image" src="https://github.com/user-attachments/assets/69386296-20ab-436e-bf40-626b39e72146" />
+
+  > Ketika memilih kategori tagihan, sistem menampilkan dua transaksi pengeluaran. Transaksi pertama tercatat pada tanggal 7 September 2025 sebesar Rp 150.000 dengan metode E-Wallet, digunakan untuk membayar listrik. Transaksi kedua terjadi pada tanggal 8 September 2025 sebesar Rp 100.000 dengan metode transfer, digunakan untuk membayar air. Setelah daftar transaksi tagihan ditampilkan, sistem menunggu input angka 0 untuk kembali ke menu sebelumnya.
+
+- Selain yang ada di pilihan kategori
+  
+  <img width="798" height="311" alt="image" src="https://github.com/user-attachments/assets/528c472b-768e-48a6-99ba-091ceb7d6785" />
+
+  > Ketika memasukkan kategori yang tidak tersedia dalam daftar pilihan, misalnya sedekah, sistem akan menampilkan pesan bahwa tidak ada data dengan kategori tersebut. Dengan begitu, hanya kategori yang memang tercatat dalam sistem seperti gaji, makan, transportasi, hiburan, belanja, tabungan, atau tagihan yang dapat difilter. Setelah itu, tampilan akan kembali pada menu Filter Catatan yang menyediakan opsi filter berdasarkan jenis, kategori, metode pembayaran, atau kembali ke menu sebelumnya. Dengan begitu, proses dapat dilanjutkan tanpa menutup program dan kategori yang benar bisa dipilih ulang.
+
+c. Filter per Metode Pembayaran 
+
+  <img width="707" height="271" alt="image" src="https://github.com/user-attachments/assets/c52c262c-04aa-4c06-9707-834fb75b28fe" />
+
+  > Ketika memilih menu Filter per Metode Pembayaran, sistem akan menampilkan opsi untuk memasukkan metode pembayaran, yaitu Cash, E-Wallet, atau Transfer. Jika yang dimasukkan bukan salah satu dari pilihan tersebut, sistem akan menampilkan pesan bahwa tidak ada data dengan metode pembayaran tersebut. Setelah itu, tampilan kembali diarahkan ke menu Filter Catatan, sehingga proses dapat dilanjutkan tanpa harus keluar dari program.
+
+- Cash
+  
+  <img width="1025" height="233" alt="image" src="https://github.com/user-attachments/assets/3f97f153-3452-4f0a-bb29-b3541e66cb98" />
+
+  > Ketika memilih metode pembayaran Cash, sistem akan menampilkan daftar transaksi yang menggunakan metode pembayaran tersebut. Pada tampilan terlihat dua catatan pengeluaran, yaitu transaksi makan dengan nominal Rp 25.000 dan transaksi transportasi dengan nominal Rp 10.000. Setelah data ditampilkan, tersedia perintah untuk mengetik angka 0 agar bisa kembali ke menu sebelumnya.
+
+- Transfer
+  
+  <img width="1037" height="295" alt="image" src="https://github.com/user-attachments/assets/444926c9-c446-4f7b-9cb1-efbca08994ae" />
+
+  > Ketika memilih metode pembayaran Transfer, sistem akan menampilkan daftar transaksi yang menggunakan metode tersebut. Pada tampilan terlihat beberapa catatan, di antaranya pemasukan gaji sebesar Rp 3.000.000, pengeluaran belanja sebesar Rp 200.000, pemasukan tabungan sebesar Rp 500.000, pembayaran tagihan air sebesar Rp 100.000, serta pemasukan tabungan sebesar Rp 300.000. Seluruh transaksi ditampilkan dalam bentuk tabel agar lebih jelas, dan setelah itu tersedia perintah untuk mengetik angka 0 agar bisa kembali ke menu sebelumnya.
+
+- E-Wallet
+  
+  <img width="1015" height="242" alt="image" src="https://github.com/user-attachments/assets/4ab75684-8f54-4050-be4d-5fc08afee3d3" />
+
+  > Ketika memilih metode pembayaran E-Wallet, sistem akan menampilkan daftar transaksi yang dilakukan menggunakan dompet digital. Pada tabel terlihat dua catatan pengeluaran, yaitu sebesar Rp 50.000 untuk hiburan menonton bioskop dan Rp 150.000 untuk pembayaran tagihan listrik. Seluruh data ditampilkan dengan format tabel agar mudah dibaca, dan setelah selesai tersedia instruksi untuk mengetik angka 0 agar kembali ke menu sebelumnya.
+
+- selain yang ada di pilihan metode pembayaran
+  
+  <img width="718" height="319" alt="image" src="https://github.com/user-attachments/assets/ceeb1a3f-962f-484e-96ce-451d855d40fc" />
+
+  > Ketika pada menu filter dimasukkan metode pembayaran yang tidak tersedia, misalnya “Kartu debit”, sistem akan langsung menampilkan pesan bahwa tidak ada data dengan metode tersebut. Setelah itu, tabel menu filter ditampilkan kembali agar pilihan bisa diulang, sehingga proses penyaringan catatan keuangan tetap terarah sesuai opsi yang disediakan, yaitu Cash, E-Wallet, atau Transfer.
 
 d. Kembali
-<img width="725" height="508" alt="image" src="https://github.com/user-attachments/assets/4e6176f7-e930-4960-8c6d-cab1ded221ef" />
 
-e. Jika menginputkan selain menu 1-4 dan Menginputkan Menu Pakai Huruf Bukan Angka
-<img width="639" height="403" alt="image" src="https://github.com/user-attachments/assets/e54e604e-de86-410a-896f-186e00daf6db" />
+  <img width="725" height="508" alt="image" src="https://github.com/user-attachments/assets/4e6176f7-e930-4960-8c6d-cab1ded221ef" />
 
-<img width="681" height="205" alt="image" src="https://github.com/user-attachments/assets/01d34cc6-2fb0-4fa5-93c7-aab0ee479f87" />
+  > Ketika pada menu filter dipilih opsi nomor 4, sistem akan mengembalikan tampilan ke menu utama. Dengan begitu, proses penyaringan catatan dapat dihentikan sementara dan navigasi diarahkan kembali ke pilihan utama aplikasi, seperti menambah catatan keuangan, melihat daftar catatan, mengubah, menghapus, hingga ringkasan saldo. Fitur ini berfungsi sebagai jalan pintas agar tidak perlu menutup aplikasi saat ingin berpindah dari menu filter ke menu utama.
 
+e. Jika menginputkan selain menu 1-4 
+
+  <img width="639" height="403" alt="image" src="https://github.com/user-attachments/assets/e54e604e-de86-410a-896f-186e00daf6db" />
+
+  > Apabila pada menu filter dimasukkan angka di luar pilihan 1 sampai 4, sistem akan langsung menampilkan pesan “Pilihan tidak valid”. Setelah itu, menu filter catatan ditampilkan kembali sehingga dapat memilih opsi yang benar sesuai dengan daftar yang tersedia. Hal ini memastikan agar hanya input yang sesuai dengan menu yang bisa diproses oleh sistem.
+
+f. Jika menginputkan menu pakai huruf bukan angka
+
+  <img width="681" height="205" alt="image" src="https://github.com/user-attachments/assets/01d34cc6-2fb0-4fa5-93c7-aab0ee479f87" />
+
+  > Apabila pada menu filter dimasukkan huruf alih-alih angka, sistem akan langsung menolak input tersebut dengan menampilkan pesan “Harus angka! Silakan input ulang”. Dengan begitu, hanya input berupa angka yang valid sesuai pilihan menu 1 sampai 4 yang bisa diterima. Mekanisme ini dibuat untuk memastikan agar sistem tetap berjalan sesuai alur yang benar dan menghindari kesalahan input.
 
 #### 7. Menu Set Batas Pengeluaran
-nanti disini nyoba set batas pengeluaran baru (jika batas belum diset maka yang muncul angka o, baru kalau mau aktifin bisa diinput jika engga mau bisa ketik 0), 
-sama kalau batas di non aktifkan. sama nanti coba lagi buka setelah tambah pengeluaran supaya muncul peringatan
 
 <img width="686" height="424" alt="image" src="https://github.com/user-attachments/assets/69a90211-c5bc-4e2a-9d71-30ebe6a20652" />
 
+> Ketika memilih angka 7 pada menu utama, sistem akan menampilkan menu Set Batas Pengeluaran Bulanan. Pada menu ini, ditunjukkan terlebih dahulu batas pengeluaran saat ini. Jika batas belum pernah ditentukan, maka statusnya akan ditampilkan sebagai “tidak diaktifkan”. Selanjutnya, diminta untuk memasukkan batas baru sesuai kebutuhan, atau mengetik angka 0 apabila ingin menonaktifkan fitur batas pengeluaran.
+
+
 <img width="715" height="195" alt="image" src="https://github.com/user-attachments/assets/529ef75f-34ed-42e2-8f88-1a625e7e4991" />
 
-buka pengeluaran setelah ditambah produk
+> Setelah memasukkan batas pengeluaran baru, sistem akan menampilkan informasi yang lebih detail. Batas pengeluaran ditetapkan sesuai angka yang dimasukkan, misalnya Rp 1.000.000. Kemudian, sistem menampilkan total pengeluaran saat ini, yaitu Rp 535.000. Dari data tersebut, dihitung sisa ruang anggaran sebesar Rp 465.000. Informasi ini membantu dalam memantau sejauh mana pengeluaran mendekati batas yang sudah ditentukan. Setelah itu, dapat mengetik angka 0 untuk kembali ke menu utama.
+
+
 <img width="733" height="218" alt="image" src="https://github.com/user-attachments/assets/5cc2fd79-04b4-4ba8-bd90-8cb28cff1bc8" />
 
-nonaktif batas
+> Ketika batas pengeluaran baru ditetapkan sebesar Rp 1.000.000, sistem langsung membandingkannya dengan total pengeluaran yang sudah tercatat. Dari hasil perhitungan, total pengeluaran mencapai Rp 4.035.000, yang berarti jauh melebihi batas yang telah ditentukan. Akibatnya, sisa ruang anggaran menjadi negatif, yaitu Rp -3.035.000. Sistem kemudian memberikan peringatan dengan jelas berupa pesan: “Pengeluaran sudah melebihi batas !!!”. Hal ini berfungsi sebagai pengingat agar lebih berhati-hati dalam mengatur keuangan. Setelah informasi ini ditampilkan, dapat mengetik angka 0 untuk kembali ke menu utama.
+
 <img width="706" height="162" alt="image" src="https://github.com/user-attachments/assets/f7adb9fd-b96a-4b6f-8d75-068e41b4ae9e" />
 
+> Ketika batas pengeluaran diatur dengan nilai 0, sistem akan secara otomatis menonaktifkan fitur pembatasan pengeluaran bulanan. Setelah itu, ditampilkan pesan konfirmasi berupa “Batas pengeluaran bulanan dinonaktifkan” sebagai tanda bahwa pengaturan sebelumnya tidak lagi berlaku. Untuk kembali ke menu utama, cukup mengetik angka 0 sesuai instruksi yang diberikan sistem.
+
 #### 8. Menu Keluar
+
 <img width="460" height="425" alt="image" src="https://github.com/user-attachments/assets/6b295d2b-299f-4c47-b061-15b7400bf3ff" />
 
+> Ketika memilih angka 8 pada menu utama, sistem akan langsung menutup aplikasi Pocket Guard. Sebelum keluar, ditampilkan pesan ucapan terima kasih berupa “Terima kasih telah menggunakan POCKET GUARD” serta doa agar keuangan selalu aman dan terjaga. Dengan begitu, aplikasi benar-benar mengakhiri jalannya program setelah perintah keluar dipilih.
+
 #### 9. Jika Menginputkan Menu Selain Menu 1-8 dan Menginputkan Menu Pakai Huruf Bukan Angka
+
 <img width="428" height="692" alt="image" src="https://github.com/user-attachments/assets/c950f97e-246e-401c-8553-d2b648cf977c" />
 
+> Ketika memasukkan angka di luar rentang 1 sampai 8 pada menu utama, sistem akan menampilkan pesan “Pilihan tidak valid. Silakan coba lagi!!!” lalu mengembalikan tampilan ke menu utama agar dapat memilih ulang menu yang benar.
+
 <img width="495" height="330" alt="image" src="https://github.com/user-attachments/assets/e680a0aa-c1e6-4a56-973e-89898580767a" />
+
+> Selain itu, jika input yang dimasukkan berupa huruf atau teks alih-alih angka, sistem akan menolak dengan menampilkan pesan “Harus angka! Silakan input ulang:” kemudian meminta masukan baru sampai format yang dimasukkan benar berupa angka dalam rentang 1–8.
 
 
 

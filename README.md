@@ -93,19 +93,22 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >  a. Jika kita menginputkan "Y" maka akan diarahkan untuk menginputkan catatan baru mulai dari menginputkan tanggal sampai nominal transaksinya. Ketika berhasil menambahkan data maka akan muncul pesan bahwa "Data Berhasil Ditambahkan".
 > 
 > <img width="957" height="219" alt="image" src="https://github.com/user-attachments/assets/ec4aabe8-aede-4d4a-8296-e7e4c56c4584" />
+>
 > Dan setelah berhasil menambahkan data baru, program akan langsung menampilkan ulang seluruh daftar catatan keuangan dalam bentuk tabel dan diarahkan kembali ke pertanyaan "Apakah Ingin Menambah Catatan Lagi? (Y/T):", Seperti yang tertera pada gambar di bawah ini.
 > 
 > <img width="1016" height="389" alt="image" src="https://github.com/user-attachments/assets/93414b8b-46ec-4601-8c40-3704b477d5a5" />
-
+>
 > b. Jika kita menginputkan "T" maka akan di arahkan ke menu utama program ini.
+> 
 > <img width="395" height="357" alt="image" src="https://github.com/user-attachments/assets/26ff1647-8a6e-4550-a351-b943736585f9" />
 
-disini tambah jika masukkan nominal transaksi pakai huruf supaya peringatannya muncuul
-<img width="936" height="202" alt="image" src="https://github.com/user-attachments/assets/0aa64c3f-7944-46ad-b028-b2f69707e823" />
+- Pada menu "Tambah Catatan Keuangan" ketika kita menginputkan nominal transaksi menggunakan huruf bukan angka maka akan munucul peringatan yaitu "Harus angka! Silakan input ulang" seperti gambar dibawah ini.
+  
+  <img width="936" height="202" alt="image" src="https://github.com/user-attachments/assets/0aa64c3f-7944-46ad-b028-b2f69707e823" />
 
-tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
-<img width="1061" height="586" alt="image" src="https://github.com/user-attachments/assets/26b2b15c-c5ed-4aae-a019-1fb9122c2e78" />
-
+- Selain validasi input angka, pada menu "Tambah Catatan Keuangan", jika kita menambahkan catatan pengeluaran baru di menu "Tambah Catatan Keuangan" sistem akan otomatis menghitung total seluruh pengeluaran. Jika total pengeluaran melebihi batas bulanan yang telah ditentukan, maka aplikasi akan menampilkan peringatan seperti gambar dibawah ini
+  
+  <img width="1061" height="586" alt="image" src="https://github.com/user-attachments/assets/26b2b15c-c5ed-4aae-a019-1fb9122c2e78" />
 
 #### 2. Menu Lihat Semua Catatan Keuangan 
 <img width="1021" height="644" alt="image" src="https://github.com/user-attachments/assets/26c3a558-e598-4d6e-96c9-27ad2268d7fd" />
@@ -119,54 +122,88 @@ tambah pengeluaran yang melebihi pemasukkan supaya muncul peringatan
 #### 3. Menu Ubah Catatan Keuangan
 <img width="1013" height="721" alt="image" src="https://github.com/user-attachments/assets/515be041-fe38-4733-9237-df4f79b73d55" />
 
+> Ketika menginputkan angka 3 pada menu utama maka akan diarahkan ke menu "Ubah Catatan
+Keuangan" seperti yang tertera pada gambar di atas.
+>
+>  Pada menu ini, seluruh daftar transaksi ditampilkan lengkap dengan ID, tanggal, jenis,
+kategori, metode pembayaran, jumlah, dan keterangan, sehingga pengguna dapat dengan mudah
+memilih catatan yang ingin diperbarui.
+>
+> Setelah memasukkan ID, pengguna diberi opsi untuk mengganti setiap field transaksi. Jika
+pengguna menekan Enter tanpa mengisi input baru, maka nilai lama akan tetap dipertahankan.
+>
+> Dengan cara ini, perubahan data dapat dilakukan secara fleksibel tanpa perlu menghapus atau
+menambahkan ulang catatan transaksi.
 
 <img width="1036" height="602" alt="image" src="https://github.com/user-attachments/assets/23f136c0-7b04-4160-be1e-0c0c8d68a6a6" />
 
-
 <img width="1016" height="331" alt="image" src="https://github.com/user-attachments/assets/33144f74-7c63-402f-8659-55d029c3a935" />
 
+> Setelah memilih menu Ubah Catatan Keuangan, pengguna akan diminta memasukkan ID dari transaksi yang ingin diubah.
+> 
+> Sebagai contoh, pada gambar di atas pengguna memilih ID 11 yang sebelumnya berisi data Pemasukan dengan kategori Gaji.
+> 
+> Kemudian pengguna mengganti beberapa field, seperti Tanggal, Keterangan, Jenis, Kategori, Metode Pembayaran, dan Nominal Transaksi.
+> 
+> Setelah proses input selesai, sistem akan menampilkan pesan Data berhasil diubah dan menampilkan kembali tabel catatan keuangan yang sudah diperbarui.
 
 - ID sebelum diubah catatan keuangan nya
   <img width="981" height="25" alt="image" src="https://github.com/user-attachments/assets/57381df9-080b-4e93-a6d5-9150a7dc04fa" />
   
 - ID sesudah diubah catatan keuangan nya
-<img width="982" height="28" alt="image" src="https://github.com/user-attachments/assets/1ee1b467-dc9e-4597-8483-5d6e32354b6e" />
+  <img width="982" height="28" alt="image" src="https://github.com/user-attachments/assets/1ee1b467-dc9e-4597-8483-5d6e32354b6e" />
 
-apakah ingin mengubah catatan keuangan 
+Setelah pengguna selesai melakukan proses Ubah Catatan Keuangan, sistem akan menampilkan daftar catatan terbaru yang sudah diperbarui. Kemudian, pengguna akan diberikan pilihan seperti gambar dibawah ini:
+
 <img width="1028" height="395" alt="image" src="https://github.com/user-attachments/assets/9b6c060f-669d-451d-b795-be444910a6db" />
 
+> a. jika memilih "Y"
+> 
+>  <img width="1038" height="673" alt="image" src="https://github.com/user-attachments/assets/688421af-a675-4f78-8fb7-3b94081e9652" />
+>  <img width="1009" height="339" alt="image" src="https://github.com/user-attachments/assets/e6e7773f-d2e4-4fcb-9dba-dca93c0be3c8" />
+>
+>  Program akan kembali menampilkan menu Ubah Catatan Keuangan. Pengguna dapat memasukkan ID lain untuk diperbarui. Dengan begitu, proses ubah catatan bisa dilakukan berulang kali sesuai kebutuhan, tanpa harus kembali ke menu utama terlebih dahulu.
+>
+> b. jika memilih "T"
+> 
+>  <img width="425" height="349" alt="image" src="https://github.com/user-attachments/assets/d2bae0d9-3336-49fa-9367-6e99c05dbc35" />
+>
+>  Program akan langsung keluar dari menu ubah catatan dan kembali ke Menu Utama. Hal ini memudahkan pengguna jika tidak ingin lagi melakukan perubahan pada catatan yang ada.
 
-- jika y
-  <img width="1038" height="673" alt="image" src="https://github.com/user-attachments/assets/688421af-a675-4f78-8fb7-3b94081e9652" />
-  <img width="1009" height="339" alt="image" src="https://github.com/user-attachments/assets/e6e7773f-d2e4-4fcb-9dba-dca93c0be3c8" />
-
-
+- Pada saat kita memasukkan ID yang tidak tersedia di dalam tabel, maka sistem akan memberikan peringatan "ID tidak ditemukan" seperti gambar dibawah ini.
   
-- jika t
-  <img width="425" height="349" alt="image" src="https://github.com/user-attachments/assets/d2bae0d9-3336-49fa-9367-6e99c05dbc35" />
+  <img width="1199" height="815" alt="image" src="https://github.com/user-attachments/assets/7b99194b-783e-4dd7-a122-0a5cb58b09fe" />
 
-id bukan tabel gambar di bawah
-<img width="1199" height="815" alt="image" src="https://github.com/user-attachments/assets/7b99194b-783e-4dd7-a122-0a5cb58b09fe" />
+  Hal ini menunjukkan bahwa ID yang dimasukkan tidak sesuai dengan daftar transaksi yang ada. Setelah itu, sistem tetap menampilkan ulang tabel catatan keuangan terbaru agar pengguna bisa memastikan ID mana yang valid.
 
+  Dengan cara ini, pengguna tidak akan salah mengubah data transaksi karena hanya ID yang tersedia dalam tabel yang dapat diproses.
+  
+- Pada saat pengguna mencoba memasukkan ID dengan huruf (contoh: "sebelas") alih-alih angka (11), maka sistem akan otomatis menolak input tersebut. Program akan menampilkan pesan error "Harus angka! Silakan input ulang:"
+  
+  <img width="994" height="474" alt="image" src="https://github.com/user-attachments/assets/c6004323-fdf3-4281-bf23-ab5368a095b0" />
 
-id input pakai huruf gambar dibawah
-<img width="994" height="474" alt="image" src="https://github.com/user-attachments/assets/c6004323-fdf3-4281-bf23-ab5368a095b0" />
+  Pesan ini memastikan bahwa input yang diterima hanya berupa angka valid sesuai ID transaksi.
+  
+- Apabila pengguna mencoba memasukkan nominal transaksi dengan huruf (contoh: "tiga juta") alih-alih angka (3000000), maka sistem akan langsung menolak input tersebut dan menampilkan pesan error "Harus angka! Silakan input ulang:" seperti gambar dibawah ini.
+  
+  <img width="497" height="211" alt="image" src="https://github.com/user-attachments/assets/115dfe19-20a1-409c-85be-36bf89500fcc" />
+  <img width="1266" height="462" alt="image" src="https://github.com/user-attachments/assets/cffebac3-341f-4648-94b3-ab0c20ce469b" />
 
-
-apabila menginputkan nominal transaksi gak pakai angka gambar dibawah
-<img width="497" height="211" alt="image" src="https://github.com/user-attachments/assets/115dfe19-20a1-409c-85be-36bf89500fcc" />
-<img width="1266" height="462" alt="image" src="https://github.com/user-attachments/assets/cffebac3-341f-4648-94b3-ab0c20ce469b" />
-
+  Pengguna kemudian diminta untuk memasukkan ulang nilai nominal dengan format angka yang benar. Setelah input diperbaiki, data transaksi akan berhasil diperbarui dan ditampilkan kembali pada tabel catatan keuangan.
 
 #### 4. Menu Hapus Catatan Keuangan  
 <img width="683" height="407" alt="image" src="https://github.com/user-attachments/assets/e214e261-4298-450c-ac45-dc0d2a00eef4" />
 
 <img width="678" height="130" alt="image" src="https://github.com/user-attachments/assets/2c5a4b07-4529-4ea8-ab58-2cf4c803955b" />
 
-- tabel sebelum dihapus
+>  Ketika pengguna memilih angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada menu ini, pengguna diminta untuk memasukkan ID catatan yang ingin dihapus.
+>
+> Jika ID yang dimasukkan sesuai dengan data yang ada, maka catatan tersebut akan langsung dihapus dari daftar, dan sistem menampilkan pesan "Data berhasil dihapus"
+
+- Tampilan tabel sebelum dihapus datanya 
   <img width="987" height="308" alt="image" src="https://github.com/user-attachments/assets/6141a705-e19c-4652-b2f7-ef0abdd308b0" />
 
-- tabel setelah di hapus
+- Tampilan tabel setelah di hapus datanya
   <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/e3e67acc-690e-4c74-9fa3-3895c3bdfa05" />
 
 apakah ingin menghapus lagi

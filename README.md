@@ -26,7 +26,7 @@ Di dalam program, setiap catatan keuangan dapat diisi lengkap dengan tanggal, ke
 
 Aplikasi ini bisa menambah catatan baru, melihat seluruh daftar catatan, mengubah jika ada kekeliruan, atau menghapus catatan yang tidak diperlukan. Program juga dapat menampilkan ringkasan saldo (total pemasukan, total pengeluaran, dan selisihnya) sehingga kondisi keuangan mudah dipantau.
 
-Tersedia pula fitur filter catatan berdasarkan jenis, kategori, dan metode pembayaran. Selain itu, kamu dapat menetapkan batas pengeluaran bulanan; bila pengeluaran melewati batas, program akan menampilkan peringatan agar pengelolaan uang lebih terkendali.
+Tersedia pula fitur filter catatan berdasarkan jenis, kategori, dan metode pembayaran. Selain itu, batas pengeluaran bulanan dapat ditetapkan; bila pengeluaran melewati batas, program akan menampilkan peringatan agar pengelolaan uang lebih terkendali.
 
 Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga keseimbangan keuangan, dan membiasakan pencatatan keuangan secara teratur.
 
@@ -35,28 +35,30 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 <h1 align="center"><img width="391" height="303" alt="image" src="https://github.com/user-attachments/assets/aeb399a5-d4d6-4c3a-81ed-1a519dbf823e" /></h1>
 
 > Saat program dijalankan, muncul pesan pembuka “SELAMAT DATANG DI POCKET GUARD – Aplikasi Catatan Keuangan Harian Anda”. Setelah itu tampil Menu Utama berisi pilihan untuk menambah catatan, melihat daftar catatan, mengubah atau menghapus catatan, menampilkan ringkasan saldo, memfilter catatan (berdasarkan jenis, kategori, atau metode pembayaran), menetapkan batas pengeluaran bulanan, serta opsi keluar untuk mengakhiri program.
+>
 > ### ✨ Penjelasan Masing-Masing Menu ✨
+> 
 > 1. Tambah Catatan Keuangan
 >    
->    Menu ini digunakan untuk menambahkan catatan keuangan baru. Data yang dimasukkan meliputi tanggal, keterangan, jenis (pemasukan/pengeluaran), kategori, metode
->    pembayaran, dan jumlah. Setelah disimpan, catatan langsung masuk ke daftar utama.
+>    Menu ini digunakan untuk menambahkan catatan keuangan baru. Data yang dimasukkan meliputi tanggal, keterangan, jenis (pemasukan/pengeluaran), kategori, metode pembayaran, dan jumlah. Setelah disimpan, catatan langsung masuk ke daftar utama.
+>    
 > 2. Lihat Semua Catatan Keuangan
 >    
->    Menampilkan seluruh daftar catatan keuangan dalam bentuk tabel yang rapi. Pengguna bisa melihat detail lengkap seperti ID, tanggal, jenis, kategori, metode
->    pembayaran, jumlah, dan keterangan.
+>    Menampilkan seluruh daftar catatan keuangan dalam bentuk tabel yang rapi. Pengguna bisa melihat detail lengkap seperti ID, tanggal, jenis, kategori, metode pembayaran, jumlah, dan keterangan.
+>    
 > 3. Ubah Catatan Keuangan
 >    
->    Menu ini berfungsi untuk memperbarui data catatan keuangan yang sudah ada. Pengguna cukup memasukkan ID catatan, lalu mengganti data yang ingin diperbarui
->    seperti tanggal, keterangan, jenis, kategori, metode pembayaran, maupun jumlah.
+>    Menu ini berfungsi untuk memperbarui data catatan keuangan yang sudah ada. Pengguna cukup memasukkan ID catatan, lalu mengganti data yang ingin diperbarui seperti tanggal, keterangan, jenis, kategori, metode pembayaran, maupun jumlah.
+>    
 > 4. Hapus Catatan Keuangan
 >    
->    Digunakan untuk menghapus catatan keuangan yang sudah tidak diperlukan. Pengguna memasukkan
->    ID catatan, lalu data akan dihapus permanen dari daftar.
-> 6. Ringkasan Saldo
+>    Digunakan untuk menghapus catatan keuangan yang sudah tidak diperlukan. Pengguna memasukkan ID catatan, lalu data akan dihapus permanen dari daftar.
 >    
->    Menampilkan ringkasan keuangan berupa total pemasukan, total pengeluaran, dan saldo akhir (selisih antara pemasukan dan pengeluaran). Dengan menu ini kondisi
->    keuangan bisa dipantau secara cepat.
-> 7. Filter Catatan
+> 5. Ringkasan Saldo
+>    
+>    Menampilkan ringkasan keuangan berupa total pemasukan, total pengeluaran, dan saldo akhir (selisih antara pemasukan dan pengeluaran). Dengan menu ini kondisi keuangan bisa dipantau secara cepat.
+>    
+> 6. Filter Catatan
 >    
 >    Menu ini menampilkan sub-menu filter yang bisa digunakan untuk menyaring catatan keuangan berdasarkan:
 >    
@@ -67,15 +69,17 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >    c. Metode pembayaran (cash, e-wallet, transfer)
 >
 >    Fitur ini mempermudah pencarian data tertentu agar lebih spesifik.
-> 8. Set Batas Pengeluaran
 >    
->    Fitur ini memungkinkan pengguna menetapkan batas maksimal pengeluaran bulanan. Jika pengeluaran melebihi batas, program akan memberikan peringatan otomatis
->    agar lebih berhati-hati dalam mengatur keuangan.
-> 9. Keluar
+> 7. Set Batas Pengeluaran
+>    
+>    Fitur ini memungkinkan pengguna menetapkan batas maksimal pengeluaran bulanan. Jika pengeluaran melebihi batas, program akan memberikan peringatan otomatis agar lebih berhati-hati dalam mengatur keuangan.
+>    
+> 8. Keluar
 >    
 >    Menu terakhir untuk mengakhiri program. Setelah memilih opsi ini, akan muncul pesan penutup sebagai tanda bahwa aplikasi sudah berhenti dijalankan dengan aman.
 
 #### 1. Menu Tambah Catatan Keuangan
+
 <h1 align="center"><img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/7668fdd8-0065-4474-9241-1eb7ad13cdd7" /></h1>
 
 > Ketika menginputkan angka 1 pada menu utama maka akan diarahkan ke menu "Tambah Catatan Keuangan" seperti yang tertera pada gambar di atas
@@ -90,7 +94,7 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >
 > Di bagian bawah tabel, program juga memberikan pilihan "Apakah Ingin Menambah Catatan Lagi? (Y/T):".
 > 
->  a. Jika kita menginputkan "Y" maka akan diarahkan untuk menginputkan catatan baru mulai dari menginputkan tanggal sampai nominal transaksinya. Ketika berhasil menambahkan data maka akan muncul pesan bahwa "Data Berhasil Ditambahkan".
+>  a. Jika menginputkan "Y", maka akan diarahkan untuk menginputkan catatan baru mulai dari menginputkan tanggal sampai nominal transaksinya. Ketika berhasil menambahkan data maka akan muncul pesan bahwa "Data Berhasil Ditambahkan".
 > 
 > <img width="957" height="219" alt="image" src="https://github.com/user-attachments/assets/ec4aabe8-aede-4d4a-8296-e7e4c56c4584" />
 >
@@ -98,19 +102,20 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 > 
 > <img width="1016" height="389" alt="image" src="https://github.com/user-attachments/assets/93414b8b-46ec-4601-8c40-3704b477d5a5" />
 >
-> b. Jika kita menginputkan "T" maka akan di arahkan ke menu utama program ini.
+> b. Jika  menginputkan "T" maka akan di arahkan ke menu utama program ini.
 > 
 > <img width="395" height="357" alt="image" src="https://github.com/user-attachments/assets/26ff1647-8a6e-4550-a351-b943736585f9" />
 
-- Pada menu "Tambah Catatan Keuangan" ketika kita menginputkan nominal transaksi menggunakan huruf bukan angka maka akan munucul peringatan yaitu "Harus angka! Silakan input ulang" seperti gambar dibawah ini.
+- Pada menu "Tambah Catatan Keuangan", ketika nominal transaksi diinputkan menggunakan huruf alih-alih angka, sistem akan menampilkan peringatan berupa pesan "Harus angka! Silakan input ulang". Pesan ini memastikan agar data yang dimasukkan valid sesuai format angka, sehingga perhitungan transaksi dapat berjalan dengan benar, seperti terlihat pada gambar di bawah ini.
   
   <img width="936" height="202" alt="image" src="https://github.com/user-attachments/assets/0aa64c3f-7944-46ad-b028-b2f69707e823" />
 
-- Selain validasi input angka, pada menu "Tambah Catatan Keuangan", jika kita menambahkan catatan pengeluaran baru di menu "Tambah Catatan Keuangan" sistem akan otomatis menghitung total seluruh pengeluaran. Jika total pengeluaran melebihi batas bulanan yang telah ditentukan, maka aplikasi akan menampilkan peringatan seperti gambar dibawah ini
+- Selain validasi input angka, pada menu "Tambah Catatan Keuangan", setiap kali catatan pengeluaran baru ditambahkan, sistem akan otomatis menghitung ulang total seluruh pengeluaran. Jika total pengeluaran tersebut melebihi batas bulanan yang sudah ditentukan sebelumnya, maka aplikasi akan langsung menampilkan peringatan agar anggaran tetap terkontrol, seperti yang terlihat pada gambar di bawah ini.
   
   <img width="1061" height="586" alt="image" src="https://github.com/user-attachments/assets/26b2b15c-c5ed-4aae-a019-1fb9122c2e78" />
 
 #### 2. Menu Lihat Semua Catatan Keuangan 
+
 <img width="1021" height="644" alt="image" src="https://github.com/user-attachments/assets/26c3a558-e598-4d6e-96c9-27ad2268d7fd" />
 
 > Ketika menginputkan angka 2 pada menu utama maka akan diarahkan ke menu "Lihat Semua Catatan Keuangan" seperti yang tertera pada gambar di atas.
@@ -120,32 +125,21 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 > Selain itu, pada bagian bawah tabel akan muncul perintah "Ketik 0 untuk kembali" yang berfungsi untuk kembali ke menu utama.
 
 #### 3. Menu Ubah Catatan Keuangan
+
 <img width="1013" height="721" alt="image" src="https://github.com/user-attachments/assets/515be041-fe38-4733-9237-df4f79b73d55" />
 
 > Ketika menginputkan angka 3 pada menu utama maka akan diarahkan ke menu "Ubah Catatan
 Keuangan" seperti yang tertera pada gambar di atas.
 >
->  Pada menu ini, seluruh daftar transaksi ditampilkan lengkap dengan ID, tanggal, jenis,
-kategori, metode pembayaran, jumlah, dan keterangan, sehingga pengguna dapat dengan mudah
-memilih catatan yang ingin diperbarui.
->
-> Setelah memasukkan ID, pengguna diberi opsi untuk mengganti setiap field transaksi. Jika
-pengguna menekan Enter tanpa mengisi input baru, maka nilai lama akan tetap dipertahankan.
->
-> Dengan cara ini, perubahan data dapat dilakukan secara fleksibel tanpa perlu menghapus atau
-menambahkan ulang catatan transaksi.
+>  Pada menu ini, seluruh daftar transaksi ditampilkan lengkap dengan ID, tanggal, jenis, kategori, metode pembayaran, jumlah, dan keterangan, sehingga catatan yang ingin diperbarui dapat dipilih dengan mudah.
 
 <img width="1036" height="602" alt="image" src="https://github.com/user-attachments/assets/23f136c0-7b04-4160-be1e-0c0c8d68a6a6" />
 
 <img width="1016" height="331" alt="image" src="https://github.com/user-attachments/assets/33144f74-7c63-402f-8659-55d029c3a935" />
 
-> Setelah memilih menu Ubah Catatan Keuangan, pengguna akan diminta memasukkan ID dari transaksi yang ingin diubah.
-> 
-> Sebagai contoh, pada gambar di atas pengguna memilih ID 11 yang sebelumnya berisi data Pemasukan dengan kategori Gaji.
-> 
-> Kemudian pengguna mengganti beberapa field, seperti Tanggal, Keterangan, Jenis, Kategori, Metode Pembayaran, dan Nominal Transaksi.
-> 
-> Setelah proses input selesai, sistem akan menampilkan pesan Data berhasil diubah dan menampilkan kembali tabel catatan keuangan yang sudah diperbarui.
+> Setelah itu sistem akan meminta ID dari transaksi yang ingin diubah. Setelah ID dimasukkan, tersedia opsi untuk mengganti setiap field transaksi, mulai dari tanggal, keterangan, jenis, kategori, metode pembayaran, hingga nominal. Jika pada salah satu field tidak diberikan input baru dan langsung menekan Enter, maka nilai lama akan tetap dipertahankan. Dengan mekanisme ini, perubahan data dapat dilakukan secara fleksibel tanpa perlu menghapus atau menambahkan ulang catatan transaksi.
+>
+> Sebagai contoh, pada gambar ditunjukkan transaksi dengan ID 11 yang sebelumnya berisi data pemasukan dengan kategori gaji. Beberapa field kemudian diganti, seperti tanggal, keterangan, jenis, kategori, metode pembayaran, dan nominal transaksi. Setelah proses selesai, sistem akan menampilkan pesan “Data berhasil diubah” serta menampilkan kembali tabel catatan keuangan yang sudah diperbarui.
 
 - ID sebelum diubah catatan keuangan nya
   <img width="981" height="25" alt="image" src="https://github.com/user-attachments/assets/57381df9-080b-4e93-a6d5-9150a7dc04fa" />
@@ -153,53 +147,54 @@ menambahkan ulang catatan transaksi.
 - ID sesudah diubah catatan keuangan nya
   <img width="982" height="28" alt="image" src="https://github.com/user-attachments/assets/1ee1b467-dc9e-4597-8483-5d6e32354b6e" />
 
-Setelah pengguna selesai melakukan proses Ubah Catatan Keuangan, sistem akan menampilkan daftar catatan terbaru yang sudah diperbarui. Kemudian, pengguna akan diberikan pilihan seperti gambar dibawah ini:
+Setelah proses Ubah Catatan Keuangan selesai dilakukan, sistem akan menampilkan daftar catatan terbaru yang sudah diperbarui. Selanjutnya, akan diberikan pilihan seperti yang terlihat pada gambar di bawah ini:
 
 <img width="1028" height="395" alt="image" src="https://github.com/user-attachments/assets/9b6c060f-669d-451d-b795-be444910a6db" />
 
-> a. jika memilih "Y"
+> a. Jika menginputkan "Y"
 > 
 >  <img width="1038" height="673" alt="image" src="https://github.com/user-attachments/assets/688421af-a675-4f78-8fb7-3b94081e9652" />
 >  <img width="1009" height="339" alt="image" src="https://github.com/user-attachments/assets/e6e7773f-d2e4-4fcb-9dba-dca93c0be3c8" />
 >
->  Program akan kembali menampilkan menu Ubah Catatan Keuangan. Pengguna dapat memasukkan ID lain untuk diperbarui. Dengan begitu, proses ubah catatan bisa dilakukan berulang kali sesuai kebutuhan, tanpa harus kembali ke menu utama terlebih dahulu.
+>  Program akan kembali menampilkan menu Ubah Catatan Keuangan. Pada tahap ini dapat dimasukkan ID lain untuk diperbarui. Dengan begitu, proses ubah catatan bisa dilakukan berulang kali sesuai kebutuhan tanpa harus kembali ke menu utama terlebih dahulu.
 >
-> b. jika memilih "T"
+> b. Jika  menginputkan "T"
 > 
 >  <img width="425" height="349" alt="image" src="https://github.com/user-attachments/assets/d2bae0d9-3336-49fa-9367-6e99c05dbc35" />
 >
->  Program akan langsung keluar dari menu ubah catatan dan kembali ke Menu Utama. Hal ini memudahkan pengguna jika tidak ingin lagi melakukan perubahan pada catatan yang ada.
+>  Program akan langsung keluar dari menu ubah catatan dan kembali ke Menu Utama. Hal ini memudahkan jika tidak ingin lagi melakukan perubahan pada catatan yang ada.
 
-- Pada saat kita memasukkan ID yang tidak tersedia di dalam tabel, maka sistem akan memberikan peringatan "ID tidak ditemukan" seperti gambar dibawah ini.
+- Pada saat menginputkan ID yang tidak tersedia di dalam tabel, sistem akan memberikan peringatan "ID tidak ditemukan" seperti gambar di bawah ini.
   
   <img width="1199" height="815" alt="image" src="https://github.com/user-attachments/assets/7b99194b-783e-4dd7-a122-0a5cb58b09fe" />
 
-  Hal ini menunjukkan bahwa ID yang dimasukkan tidak sesuai dengan daftar transaksi yang ada. Setelah itu, sistem tetap menampilkan ulang tabel catatan keuangan terbaru agar pengguna bisa memastikan ID mana yang valid.
+  Hal ini menunjukkan bahwa ID yang dimasukkan tidak sesuai dengan daftar transaksi yang ada. Setelah itu, sistem tetap menampilkan ulang tabel catatan keuangan terbaru agar bisa memastikan ID mana yang valid.
 
-  Dengan cara ini, pengguna tidak akan salah mengubah data transaksi karena hanya ID yang tersedia dalam tabel yang dapat diproses.
+  Dengan cara ini, tidak akan terjadi kesalahan dalam mengubah data transaksi karena hanya ID yang tersedia dalam tabel yang dapat diproses.
   
-- Pada saat pengguna mencoba memasukkan ID dengan huruf (contoh: "sebelas") alih-alih angka (11), maka sistem akan otomatis menolak input tersebut. Program akan menampilkan pesan error "Harus angka! Silakan input ulang:"
+- Pada saat mencoba menginputkan ID dengan huruf (contoh: "sebelas") alih-alih angka (11), sistem akan otomatis menolak input tersebut. Program akan menampilkan pesan error "Harus angka! Silakan input ulang:".
   
   <img width="994" height="474" alt="image" src="https://github.com/user-attachments/assets/c6004323-fdf3-4281-bf23-ab5368a095b0" />
 
   Pesan ini memastikan bahwa input yang diterima hanya berupa angka valid sesuai ID transaksi.
   
-- Apabila pengguna mencoba memasukkan nominal transaksi dengan huruf (contoh: "tiga juta") alih-alih angka (3000000), maka sistem akan langsung menolak input tersebut dan menampilkan pesan error "Harus angka! Silakan input ulang:" seperti gambar dibawah ini.
+- Apabila nominal transaksi diinputkan dengan huruf (contoh: "tiga juta") alih-alih angka (3000000), sistem akan langsung menolak input tersebut dan menampilkan pesan error "Harus angka! Silakan input ulang:" seperti pada gambar di bawah ini.
   
   <img width="497" height="211" alt="image" src="https://github.com/user-attachments/assets/115dfe19-20a1-409c-85be-36bf89500fcc" />
   <img width="1266" height="462" alt="image" src="https://github.com/user-attachments/assets/cffebac3-341f-4648-94b3-ab0c20ce469b" />
 
-  Pengguna kemudian diminta untuk memasukkan ulang nilai nominal dengan format angka yang benar. Setelah input diperbaiki, data transaksi akan berhasil diperbarui dan ditampilkan kembali pada tabel catatan keuangan.
+  Setelah itu, sistem akan meminta untuk memasukkan ulang nilai nominal dengan format angka yang benar. Begitu input diperbaiki, data transaksi akan berhasil diperbarui dan ditampilkan kembali pada tabel catatan keuangan.
 
 #### 4. Menu Hapus Catatan Keuangan  
+
 <img width="1015" height="731" alt="image" src="https://github.com/user-attachments/assets/ad4d8bb0-3ad6-4335-b70c-e0edbf303a40" />
 
 <img width="1003" height="445" alt="image" src="https://github.com/user-attachments/assets/fe4b41d1-0b6c-4445-a10e-340ccdebd398" />
 
->  Ketika pengguna memilih angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada tahap ini, tabel catatan keuangan akan ditampilkan terlebih dahulu agar pengguna tidak bingung data mana yang ingin dihapus. Setelah tabel ditampilkan, pengguna kemudian diminta untuk memasukkan ID catatan yang ingin dihapus.
+>  Ketika  menginputkan angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada tahap ini, tabel catatan keuangan akan ditampilkan terlebih dahulu agar tidak terjadi kebingungan mengenai data mana yang ingin dihapus. Setelah tabel ditampilkan, sistem kemudian meminta untuk menginputkan ID catatan yang ingin dihapus.
 >
-> Jika ID yang dimasukkan sesuai dengan data yang ada, maka sistem akan menampilkan pertanyaan konfirmasi "Apakah Anda yakin ingin menghapus data dengan ID ... (Y/T)?".
-> a. Jika memilih "Y"
+> Jika ID yang diinputkan sesuai dengan data yang ada, maka sistem akan menampilkan pertanyaan konfirmasi "Apakah Anda yakin ingin menghapus data dengan ID ... (Y/T)?".
+> a. Jika  menginputkan "Y"
 > 
 >  <img width="531" height="108" alt="image" src="https://github.com/user-attachments/assets/765e9670-676f-4baa-9cb1-a1aec2497058" />
 >
@@ -210,24 +205,24 @@ Setelah pengguna selesai melakukan proses Ubah Catatan Keuangan, sistem akan men
 >    
 >   - Tampilan tabel setelah di hapus datanya
 >     <img width="1000" height="289" alt="image" src="https://github.com/user-attachments/assets/e3e67acc-690e-4c74-9fa3-3895c3bdfa05" />
-> b. Jika memilih "T"
+>
+> b. Jika menginputkan "T"
 > 
 >   <img width="550" height="105" alt="image" src="https://github.com/user-attachments/assets/cecccff0-205f-4406-bb0f-483ed10689ac" />
 >
 >   Maka proses penghapusan dibatalkan, dan sistem menampilkan pesan "Penghapusan dibatalkan".
 
-Setelah pengguna berhasil menghapus data, sistem akan menampilkan pertanyaan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" seperti terlihat pada gambar di bawah.
+Setelah berhasil menghapus data, sistem akan menampilkan pertanyaan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" seperti terlihat pada gambar di bawah.
 
   <img width="1006" height="448" alt="image" src="https://github.com/user-attachments/assets/9f3618d5-4345-4936-892d-d81015957710" />
 
-
-> a. Jika Memilih "Y"
+> a. Jika menginputkan "Y"
 > 
 >   <img width="1009" height="551" alt="image" src="https://github.com/user-attachments/assets/66af7810-6277-41dc-98e3-cb2ad9d5e119" />
 >
->  Program akan kembali menampilkan tabel catatan keuangan terbaru, kemudian meminta pengguna untuk memasukkan ID catatan lain yang ingin dihapus. Proses ini dapat dilakukan berulang kali sampai pengguna memilih untuk berhenti. Dengan cara ini, pengguna bisa langsung menghapus lebih dari satu catatan dalam satu kali sesi tanpa harus kembali ke menu utama terlebih dahulu.
+>  Program akan kembali menampilkan tabel catatan keuangan terbaru, kemudian meminta untuk  menginputkan ID catatan lain yang ingin dihapus. Proses ini dapat dilakukan berulang kali sampai dipilih untuk berhenti. Dengan cara ini, lebih dari satu catatan dapat dihapus dalam satu kali sesi tanpa harus kembali ke menu utama terlebih dahulu.
 >
-> b. Jika Memilih "T"
+> b. Jika menginputkan "T"
 > 
 >   <img width="438" height="355" alt="image" src="https://github.com/user-attachments/assets/3699e731-fa51-4779-92e6-a21f8b180d9b" />
 >
@@ -235,21 +230,22 @@ Setelah pengguna berhasil menghapus data, sistem akan menampilkan pertanyaan "Ap
 
 <img width="1024" height="485" alt="image" src="https://github.com/user-attachments/assets/72867780-f83f-4f8e-9a36-7014f33cd9dd" />
 
-> Jika ID yang dimasukkan tidak sesuai atau tidak ada dalam daftar catatan keuangan, maka sistem akan menampilkan pesan "ID tidak ditemukan".
+> Jika ID yang diinputkan tidak sesuai atau tidak ada dalam daftar catatan keuangan, maka sistem akan menampilkan pesan "ID tidak ditemukan".
 >
-> Hal ini bertujuan agar pengguna tidak salah menghapus catatan yang tidak ada pada tabel. Setelah itu, sistem tetap memberikan pilihan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" sehingga pengguna bisa mencoba kembali dengan memasukkan ID yang benar, atau keluar dari proses penghapusan dengan memilih "T".
+> Hal ini bertujuan agar tidak terjadi kesalahan dalam menghapus catatan yang tidak ada pada tabel. Setelah itu, sistem tetap memberikan pilihan "Apakah Ingin Menghapus Catatan Lagi? (Y/T):" sehingga dapat dicoba kembali dengan memasukkan ID yang benar, atau keluar dari proses penghapusan dengan menginputkan "T".
+
 
 <img width="1038" height="422" alt="image" src="https://github.com/user-attachments/assets/5f670a08-9cab-4713-8535-fb659566e937" />
 
-> Jika pengguna memasukkan ID dengan huruf (contoh: mengetik "satu" alih-alih angka 1), maka sistem tidak akan menerima input tersebut dan akan menampilkan pesan "Harus angka! Silakan input ulang:".
+> Jika ID diinputkan dalam bentuk huruf (contoh: mengetik "satu" alih-alih angka 1), maka sistem tidak akan menerima input tersebut dan akan menampilkan pesan "Harus angka! Silakan input ulang:".
 >
-> Pesan ini berfungsi sebagai validasi agar pengguna hanya bisa memasukkan ID dalam bentuk angka sesuai dengan tabel catatan yang tersedia.
+> Pesan ini berfungsi sebagai validasi agar ID hanya bisa diinputkan dalam bentuk angka sesuai dengan tabel catatan yang tersedia.
 
 #### 5. Menu Ringkasan Saldo
 
 <img width="711" height="477" alt="image" src="https://github.com/user-attachments/assets/d9f7c07a-2d2c-485f-9c4d-7debc01427f1" />
 
-> Ketika memilih angka 5 pada menu utama, sistem akan menampilkan menu Ringkasan Saldo. Pada menu ini ditampilkan rekapitulasi keuangan yang berisi total pemasukan, total pengeluaran, serta saldo akhir yang merupakan selisih dari keduanya. Informasi ini membantu menampilkan kondisi keuangan terkini secara lebih jelas dan ringkas. Setelah ringkasan saldo ditampilkan, sistem akan meminta untuk mengetik angka 0 agar dapat kembali ke menu utama.
+> Ketika menginputkan angka 5 pada menu utama, sistem akan menampilkan menu Ringkasan Saldo. Pada menu ini ditampilkan rekapitulasi keuangan yang berisi total pemasukan, total pengeluaran, serta saldo akhir yang merupakan selisih dari keduanya. Informasi ini membantu menampilkan kondisi keuangan terkini secara lebih jelas dan ringkas. Setelah ringkasan saldo ditampilkan, sistem akan meminta untuk menginputkan angka 0 agar dapat kembali ke menu utama.
 
 <img width="701" height="225" alt="image" src="https://github.com/user-attachments/assets/1080d1c1-cb4b-46b8-a54b-c792eded2da2" />
 
@@ -259,7 +255,7 @@ Setelah pengguna berhasil menghapus data, sistem akan menampilkan pertanyaan "Ap
 
 <img width="631" height="494" alt="image" src="https://github.com/user-attachments/assets/4c99876a-6485-4e4d-8318-413bd2391124" />
 
-> Ketika memilih angka 6 pada menu utama, sistem akan menampilkan Menu Filter Catatan. Pada menu ini tersedia beberapa pilihan filter, yaitu filter per jenis transaksi (pemasukan atau pengeluaran), filter per kategori, dan filter per metode pembayaran. Selain itu, juga tersedia opsi untuk kembali ke menu sebelumnya. Melalui menu ini, catatan keuangan dapat disaring sesuai kriteria tertentu agar informasi yang ditampilkan lebih fokus dan mudah dipahami.
+> Ketika menginputkan angka 6 pada menu utama, sistem akan menampilkan Menu Filter Catatan. Pada menu ini tersedia beberapa pilihan filter, yaitu filter per jenis transaksi (pemasukan atau pengeluaran), filter per kategori, dan filter per metode pembayaran. Selain itu, juga tersedia opsi untuk kembali ke menu sebelumnya. Melalui menu ini, catatan keuangan dapat disaring sesuai kriteria tertentu agar informasi yang ditampilkan lebih fokus dan mudah dipahami.
 
 a. Filter per Jenis (Pemasukan/Pengeluaran) 
 

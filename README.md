@@ -360,7 +360,7 @@ c. Filter per Metode Pembayaran
 
   > Ketika memilih metode pembayaran E-Wallet, sistem akan menampilkan daftar transaksi yang dilakukan menggunakan dompet digital. Pada tabel terlihat dua catatan pengeluaran, yaitu sebesar Rp 50.000 untuk hiburan menonton bioskop dan Rp 150.000 untuk pembayaran tagihan listrik. Seluruh data ditampilkan dengan format tabel agar mudah dibaca, dan setelah selesai tersedia instruksi untuk mengetik angka 0 agar kembali ke menu sebelumnya.
 
-- selain yang ada di pilihan metode pembayaran
+- Selain yang ada di pilihan metode pembayaran
   
   <img width="718" height="319" alt="image" src="https://github.com/user-attachments/assets/ceeb1a3f-962f-484e-96ce-451d855d40fc" />
 
@@ -388,7 +388,7 @@ f. Jika menginputkan menu pakai huruf bukan angka
 
 <img width="686" height="424" alt="image" src="https://github.com/user-attachments/assets/69a90211-c5bc-4e2a-9d71-30ebe6a20652" />
 
-> Ketika memilih angka 7 pada menu utama, sistem akan menampilkan menu Set Batas Pengeluaran Bulanan. Pada menu ini, ditunjukkan terlebih dahulu batas pengeluaran saat ini. Jika batas belum pernah ditentukan, maka statusnya akan ditampilkan sebagai “tidak diaktifkan”. Selanjutnya, diminta untuk memasukkan batas baru sesuai kebutuhan, atau mengetik angka 0 apabila ingin menonaktifkan fitur batas pengeluaran.
+> Ketika menginputkan angka 7 pada menu utama, sistem akan menampilkan menu Set Batas Pengeluaran Bulanan. Pada menu ini, ditunjukkan terlebih dahulu batas pengeluaran saat ini. Jika batas belum pernah ditentukan, maka statusnya akan ditampilkan sebagai “tidak diaktifkan”. Selanjutnya, diminta untuk memasukkan batas baru sesuai kebutuhan, atau mengetik angka 0 apabila ingin menonaktifkan fitur batas pengeluaran.
 
 
 <img width="715" height="195" alt="image" src="https://github.com/user-attachments/assets/529ef75f-34ed-42e2-8f88-1a625e7e4991" />
@@ -408,13 +408,13 @@ f. Jika menginputkan menu pakai huruf bukan angka
 
 <img width="460" height="425" alt="image" src="https://github.com/user-attachments/assets/6b295d2b-299f-4c47-b061-15b7400bf3ff" />
 
-> Ketika memilih angka 8 pada menu utama, sistem akan langsung menutup aplikasi Pocket Guard. Sebelum keluar, ditampilkan pesan ucapan terima kasih berupa “Terima kasih telah menggunakan POCKET GUARD” serta doa agar keuangan selalu aman dan terjaga. Dengan begitu, aplikasi benar-benar mengakhiri jalannya program setelah perintah keluar dipilih.
+> Ketika menginputkan angka 8 pada menu utama, sistem akan langsung menutup aplikasi Pocket Guard. Sebelum keluar, ditampilkan pesan ucapan terima kasih berupa “Terima kasih telah menggunakan POCKET GUARD” serta doa agar keuangan selalu aman dan terjaga. Dengan begitu, aplikasi benar-benar mengakhiri jalannya program setelah perintah keluar dipilih.
 
 #### 9. Jika Menginputkan Menu Selain Menu 1-8 dan Menginputkan Menu Pakai Huruf Bukan Angka
 
 <img width="428" height="692" alt="image" src="https://github.com/user-attachments/assets/c950f97e-246e-401c-8553-d2b648cf977c" />
 
-> Ketika memasukkan angka di luar rentang 1 sampai 8 pada menu utama, sistem akan menampilkan pesan “Pilihan tidak valid. Silakan coba lagi!!!” lalu mengembalikan tampilan ke menu utama agar dapat memilih ulang menu yang benar.
+> Ketika menginputkan angka di luar rentang 1 sampai 8 pada menu utama, sistem akan menampilkan pesan “Pilihan tidak valid. Silakan coba lagi!!!” lalu mengembalikan tampilan ke menu utama agar dapat memilih ulang menu yang benar.
 
 <img width="495" height="330" alt="image" src="https://github.com/user-attachments/assets/e680a0aa-c1e6-4a56-973e-89898580767a" />
 

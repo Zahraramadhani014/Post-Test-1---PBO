@@ -48,11 +48,11 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >    
 > 3. Ubah Catatan Keuangan
 >    
->    Menu ini berfungsi untuk memperbarui data catatan keuangan yang sudah ada. Pengguna cukup memasukkan ID catatan, lalu mengganti data yang ingin diperbarui seperti tanggal, keterangan, jenis, kategori, metode pembayaran, maupun jumlah.
+>    Menu ini berfungsi untuk memperbarui data catatan keuangan yang sudah ada. Cukup masukkan ID catatan, lalu ganti data yang ingin diperbarui seperti tanggal, keterangan, jenis, kategori, metode pembayaran, maupun jumlah.
 >    
 > 4. Hapus Catatan Keuangan
 >    
->    Digunakan untuk menghapus catatan keuangan yang sudah tidak diperlukan. Pengguna memasukkan ID catatan, lalu data akan dihapus permanen dari daftar.
+>    Digunakan untuk menghapus catatan keuangan yang sudah tidak diperlukan. Cukup masukkan ID catatan, lalu data akan dihapus permanen dari daftar.
 >    
 > 5. Ringkasan Saldo
 >    
@@ -72,11 +72,11 @@ Secara keseluruhan, Pocket Guard membantu melacak arus kas harian, menjaga kesei
 >    
 > 7. Set Batas Pengeluaran
 >    
->    Fitur ini memungkinkan pengguna menetapkan batas maksimal pengeluaran bulanan. Jika pengeluaran melebihi batas, program akan memberikan peringatan otomatis agar lebih berhati-hati dalam mengatur keuangan.
+>    Menu ini digunakan untuk menetapkan batas pengeluaran bulanan. Jika total pengeluaran melewati batas yang ditetapkan, sistem akan memberikan peringatan agar pengelolaan keuangan lebih terkendali.
 >    
 > 8. Keluar
 >    
->    Menu terakhir untuk mengakhiri program. Setelah memilih opsi ini, akan muncul pesan penutup sebagai tanda bahwa aplikasi sudah berhenti dijalankan dengan aman.
+>    Menu ini digunakan untuk keluar dari aplikasi. Setelah memilih opsi ini, sistem akan menampilkan pesan penutup sebelum program dihentikan.
 
 #### 1. Menu Tambah Catatan Keuangan
 

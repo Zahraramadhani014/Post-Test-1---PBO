@@ -194,6 +194,7 @@ Setelah proses Ubah Catatan Keuangan selesai dilakukan, sistem akan menampilkan 
 >  Ketika  menginputkan angka 4 pada menu utama, sistem akan mengarahkan ke menu Hapus Catatan Keuangan. Pada tahap ini, tabel catatan keuangan akan ditampilkan terlebih dahulu agar tidak terjadi kebingungan mengenai data mana yang ingin dihapus. Setelah tabel ditampilkan, sistem kemudian meminta untuk menginputkan ID catatan yang ingin dihapus.
 >
 > Jika ID yang diinputkan sesuai dengan data yang ada, maka sistem akan menampilkan pertanyaan konfirmasi "Apakah Anda yakin ingin menghapus data dengan ID ... (Y/T)?".
+> 
 > a. Jika  menginputkan "Y"
 > 
 >  <img width="531" height="108" alt="image" src="https://github.com/user-attachments/assets/765e9670-676f-4baa-9cb1-a1aec2497058" />
